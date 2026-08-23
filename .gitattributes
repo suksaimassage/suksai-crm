@@ -1,0 +1,47 @@
+# =============================================================================
+# .gitattributes — line-ending & binary policy
+# -----------------------------------------------------------------------------
+# Why this file exists:
+#   Git's `core.autocrlf=true` (its default on Windows) checks every text file
+#   out with CRLF, while this repository stores them as LF. Prettier
+#   (prettier.config.ts) defaults to `endOfLine: "lf"` and ESLint enforces it
+#   via the `prettier/prettier` rule, so a CRLF working tree produces thousands
+#   of spurious `Delete CR (prettier/prettier)` errors on otherwise-clean files
+#   — making the LF format gate noisy and effectively unenforceable on Windows.
+#
+#   Declaring the policy here overrides core.autocrlf for THIS repo on every
+#   machine: text is stored and checked out as LF; binaries are left untouched.
+# =============================================================================
+
+# Default: auto-detect text vs binary; store and check out all text with LF.
+* text=auto eol=lf
+
+# --- Explicit text formats -------------------------------------------------
+*.svg     text eol=lf
+
+# --- Lockfiles: LF text, flagged generated so reviews collapse their diffs --
+package-lock.json  linguist-generated
+pnpm-lock.yaml     linguist-generated
+
+# --- Binary assets: never normalize, diff, or apply EOL conversion ----------
+# Fonts (the repo ships .woff2; the rest are future-proofing)
+*.woff    binary
+*.woff2   binary
+*.ttf     binary
+*.eot     binary
+*.otf     binary
+# Images
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.webp    binary
+*.avif    binary
+# Media / archives / wasm
+*.pdf     binary
+*.zip     binary
+*.gz      binary
+*.mp4     binary
+*.webm    binary
+*.wasm    binary
