@@ -1,0 +1,287 @@
+{
+  "page": {
+    "title": "Terapeutas",
+    "titleAccent": "",
+    "eyebrow": "Equipo · terapeutas",
+    "description": "Gestiona disponibilidad, especialidades y rendimiento de cada terapeuta.",
+    "loading": "Cargando terapeutas"
+  },
+  "actions": {
+    "add": "Nuevo terapeuta",
+    "export": "Exportar"
+  },
+  "kpi": {
+    "equipo_activo": "Equipo activo",
+    "en_sala": "En sala · ahora",
+    "horas_semana": "Horas · semana",
+    "horas_mes": "Horas · mes avg",
+    "valoracion_media": "Valoración media",
+    "no_data": "N/D",
+    "equipo_activo_aria": "{{activos}} de {{total}} terapeutas activos",
+    "horas_mes_aria": "{{label}}: {{horas}} horas"
+  },
+  "tabs": {
+    "directorio": "Directorio",
+    "horarios": "Horarios",
+    "todos": "Todos",
+    "en_sala": "En sala",
+    "disponibles": "Disponibles",
+    "descanso": "Descanso",
+    "inactivos": "Inactivos"
+  },
+  "toolbar": {
+    "search_placeholder": "Buscar por nombre, especialidad…",
+    "centro": "Centro",
+    "especialidad": "Especialidad",
+    "sort": "Ordenar",
+    "clear": "Limpiar filtros",
+    "statusFilter": "Filtrar por estado",
+    "sort_nombre_asc": "Nombre · A–Z",
+    "sort_nombre_desc": "Nombre · Z–A",
+    "sort_sesiones_desc": "Sesiones ↓",
+    "sort_ingresos_desc": "Ingresos ↓"
+  },
+  "schedule": {
+    "loading": "Cargando horarios",
+    "empty": "Sin horarios para este centro",
+    "recurrente_readonly": "Las horas recurrentes se editan desde la plantilla semanal",
+    "recurrente_label": "Recurrente",
+    "recurrente_note": "Horario recurrente · solo lectura",
+    "error": {
+      "title": "No se pudieron cargar los horarios",
+      "retry": "Reintentar",
+      "overlap": {
+        "title": "Horario solapado",
+        "description": "Este horario se cruza con otro turno del mismo terapeuta ese día. No se ha guardado."
+      }
+    },
+    "toast": {
+      "created": "Horario creado",
+      "updated": "Horario actualizado",
+      "deleted": "Horario eliminado"
+    }
+  },
+  "card": {
+    "desde": "Desde {{year}}",
+    "horas_semana": "{{hours}} h esta semana",
+    "proxima": "Próxima · {{time}}",
+    "sin_proxima": "Sin citas pendientes",
+    "sesiones_label": "Sesiones · sem",
+    "servicio_label": "Top servicio",
+    "valoracion_label": "Valoración",
+    "ingresos_label": "Generado · sem",
+    "add_label": "Sumar una nueva mano",
+    "add_description": "Da de alta a un nuevo terapeuta y configura su agenda, especialidades y comisión.",
+    "editAriaLabel": "Editar terapeuta {{nombre}}",
+    "menu": {
+      "ariaLabel": "Acciones de {{nombre}}",
+      "editar": "Editar",
+      "horario": "Horario de trabajo"
+    }
+  },
+  "status": {
+    "en_sala": "En sesión",
+    "disponible": "Disponible",
+    "descanso": "Descanso",
+    "inactivo": "Inactivo",
+    "ausente": "Ausente"
+  },
+  "days": {
+    "1": "L",
+    "2": "M",
+    "3": "X",
+    "4": "J",
+    "5": "V",
+    "6": "S",
+    "7": "D"
+  },
+  "empty": {
+    "title": "Sin terapeutas",
+    "description": "No hay terapeutas asignados a este centro todavía.",
+    "action": "Añadir primer terapeuta"
+  },
+  "empty_filtered": {
+    "title": "Sin resultados",
+    "description": "Ningún terapeuta coincide con los filtros aplicados.",
+    "action": "Limpiar filtros"
+  },
+  "error": {
+    "title": "No se pudo cargar el equipo",
+    "description": "Hubo un problema al obtener los datos.",
+    "retry": "Reintentar"
+  },
+  "modal": {
+    "create": {
+      "title": "Nuevo terapeuta"
+    },
+    "edit": {
+      "title": "Editar terapeuta"
+    },
+    "submit": {
+      "create": "Crear terapeuta",
+      "edit": "Guardar cambios"
+    },
+    "cancel": "Cancelar",
+    "delete": {
+      "label": "Desactivar terapeuta",
+      "entityLabel": "este terapeuta",
+      "confirmTitle": "Desactivar terapeuta",
+      "confirmMessage": "¿Seguro que quieres desactivar a {{nombre}}? Podrás reactivarlo más tarde.",
+      "confirmCta": "Desactivar"
+    },
+    "reactivate": {
+      "label": "Reactivar terapeuta"
+    }
+  },
+  "form": {
+    "nombre": {
+      "label": "Nombre",
+      "placeholder": "Nombre del terapeuta"
+    },
+    "apellidos": {
+      "label": "Apellidos",
+      "placeholder": "Apellidos"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "correo@ejemplo.com",
+      "readonly_hint": "No editable · el email queda vinculado a la cuenta del terapeuta"
+    },
+    "telefono": {
+      "label": "Teléfono",
+      "placeholder": "+34 600 000 000"
+    },
+    "centros": {
+      "label": "Centros asignados"
+    },
+    "principal": {
+      "label": "Centro principal",
+      "help": "Elige cuál de los centros seleccionados es el principal.",
+      "radioAriaLabel": "Marcar {{centro}} como centro principal",
+      "error_not_selected": "El centro principal debe estar entre los centros asignados."
+    },
+    "rol": {
+      "label": "Rol",
+      "placeholder": "Selecciona un rol",
+      "error_required": "Selecciona un rol",
+      "error_load": "No se pudieron cargar los roles"
+    }
+  },
+  "roles": {
+    "masajista": "Masajista",
+    "recepcionista": "Recepcionista"
+  },
+  "guard": {
+    "description": "Este terapeuta tiene {{count}} cita(s) activa(s) en los próximos 30 días.",
+    "check_error": "No se pudo verificar las citas activas del terapeuta"
+  },
+  "toast": {
+    "created": "Terapeuta creado con éxito",
+    "updated": "Terapeuta actualizado",
+    "deleted": "Terapeuta desactivado",
+    "reactivated": "Terapeuta reactivado"
+  },
+  "workSchedule": {
+    "calendarViewAriaLabel": "Vista del calendario",
+    "viewDay": "Día",
+    "viewWeek": "Semana",
+    "viewMonth": "Mes",
+    "monthlyScheduleAriaLabel": "Horario mensual",
+    "weeklyScheduleAriaLabel": "Horario semanal",
+    "dailyScheduleAriaLabel": "Horario diario",
+    "resizeShiftAriaLabel": "Redimensionar turno",
+    "closePanelAriaLabel": "Cerrar panel",
+    "editShiftAriaLabel": "Editar turno",
+    "closeAriaLabel": "Cerrar",
+    "addShiftTitle": "Añadir horario",
+    "addShiftAriaLabel": "Añadir horario",
+    "terapeutaLabel": "Terapeuta",
+    "tipoHorarioLabel": "Tipo de horario",
+    "tipoHorarioAriaLabel": "Tipo de horario",
+    "tipoEspecifico": "Fecha específica",
+    "tipoRecurrente": "Recurrente (semanal)",
+    "fechaLabel": "Fecha",
+    "diaSemanaLabel": "Día de la semana",
+    "horaInicioLabel": "Hora inicio",
+    "horaFinLabel": "Hora fin",
+    "cancelar": "Cancelar",
+    "añadir": "Añadir",
+    "prevDay": "Día anterior",
+    "prevWeek": "Semana anterior",
+    "prevMonth": "Mes anterior",
+    "nextDay": "Día siguiente",
+    "nextWeek": "Semana siguiente",
+    "nextMonth": "Mes siguiente",
+    "goToTodayAriaLabel": "Ir a hoy",
+    "today": "Hoy",
+    "employeesColumn": "Terapeutas",
+    "noEmployees": "No hay terapeutas que mostrar",
+    "addShiftForAriaLabel": "Añadir turno para {{name}}",
+    "addShiftShort": "Añadir turno",
+    "monthDayCellAriaLabel": "{{date}} — {{count}} terapeuta(s)",
+    "weekDayToDayViewAriaLabel": "{{date}} — cambiar a vista de día",
+    "weekdays": {
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado",
+      "7": "Domingo"
+    },
+    "detailPanel": {
+      "shiftAriaLabel": "Turno: {{name}}",
+      "shiftDetailsAriaLabel": "Detalles del turno",
+      "shiftFallback": "Turno",
+      "employee": "Terapeuta",
+      "time": "Horario",
+      "duration": "Duración",
+      "notes": "Notas"
+    },
+    "editModal": {
+      "title": "Editar turno",
+      "employee": "Terapeuta",
+      "date": "Fecha",
+      "start": "Inicio",
+      "end": "Fin",
+      "time": "Horario",
+      "label": "Etiqueta",
+      "labelPlaceholder": "p. ej. Turno de mañana",
+      "color": "Color",
+      "colorPrimary": "Primario",
+      "colorSecondary": "Secundario",
+      "colorSuccess": "Éxito",
+      "colorWarning": "Aviso",
+      "colorError": "Error",
+      "notes": "Notas",
+      "notesPlaceholder": "Añade una nota…",
+      "delete": "Eliminar",
+      "cancel": "Cancelar",
+      "save": "Guardar cambios"
+    },
+    "confirmReschedule": {
+      "titleTime": "¿Mover este turno?",
+      "titleEmployee": "¿Reasignar este turno?",
+      "titleBoth": "¿Reasignar y mover este turno?",
+      "contextDay": "{{therapist}} · {{fecha}}",
+      "contextDayTime": "{{fecha}} · {{horaInicio}}–{{horaFin}}",
+      "contextDateOnly": "{{fecha}}",
+      "fromLabel": "De",
+      "toLabel": "A",
+      "timeValue": "{{horaInicio}}–{{horaFin}}",
+      "employeeAndTimeValue": "{{therapist}} · {{horaInicio}}–{{horaFin}}",
+      "reassignBadge": "Reasignación",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "genericError": "No se pudo guardar el cambio. Inténtalo de nuevo."
+    },
+    "a11y": {
+      "rescheduleProposedTime": "Mover turno a {{horaInicio}}–{{horaFin}}. Confirmación pendiente.",
+      "rescheduleProposedEmployee": "Reasignar turno a {{therapist}}. Confirmación pendiente.",
+      "rescheduleProposedBoth": "Reasignar a {{therapist}} y mover a {{horaInicio}}–{{horaFin}}. Confirmación pendiente.",
+      "rescheduledAnnounce": "Turno actualizado.",
+      "rescheduleCancelledAnnounce": "Cambio cancelado. El turno permanece sin cambios.",
+      "readOnlyHint": "(recurrente, no editable)"
+    }
+  }
+}

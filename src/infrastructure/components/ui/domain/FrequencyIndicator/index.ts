@@ -1,0 +1,1 @@
+export { FrequencyIndicator } from './FrequencyIndicator';

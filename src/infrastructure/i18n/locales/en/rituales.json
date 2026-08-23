@@ -1,0 +1,138 @@
+{
+  "page": {
+    "eyebrow": "SERVICE CATALOGUE",
+    "title": "Massages &",
+    "titleAccent": "services.",
+    "description": "The house catalogue. Edit durations, prices and availability by studio.",
+    "newBtn": "New massage",
+    "comingSoon": "Coming soon"
+  },
+  "kpi": {
+    "activos": "Active massages",
+    "precioMedio": "Average price",
+    "categorias": "Categories",
+    "reservasMes": "Bookings / month",
+    "ndLabel": "N/A",
+    "ndDescription": "Available in next version"
+  },
+  "tabs": {
+    "activos": "Active",
+    "inactivos": "Inactive",
+    "archivados": "Archived",
+    "todos": "All",
+    "ariaLabel": "Filter by status"
+  },
+  "search": {
+    "placeholder": "Search massage, category...",
+    "ariaLabel": "Search massages",
+    "resultsAnnouncement": "{{count}} massages found"
+  },
+  "chips": {
+    "centro": "Centre",
+    "duracion": "Duration",
+    "mas": "More"
+  },
+  "rail": {
+    "title": "Catalogue categories",
+    "all": "All massages",
+    "allSub": "Full catalogue",
+    "serviciosCount": "{{count}} service",
+    "serviciosCount_plural": "{{count}} services",
+    "ariaLabel": "Filter by category",
+    "summary": {
+      "title": "Summary",
+      "total": "Total services",
+      "precioMedio": "Average price"
+    }
+  },
+  "grid": {
+    "ariaLabel": "Massages grid",
+    "sectionTitle": "Active massages",
+    "addNew": "Create new massage",
+    "addNewDesc": "Define duration, price and materials.",
+    "orderBy": "Sorted by name",
+    "comingSoonContent": "This view will be available soon"
+  },
+  "card": {
+    "activo": "Active",
+    "inactivo": "Inactive",
+    "archivado": "Archived",
+    "bono": "Package",
+    "descuento": "{{pct}}% off",
+    "editAriaLabel": "Edit {{nombre}}",
+    "codePrefix": "SVC"
+  },
+  "complementos": {
+    "title": "Add-ons &",
+    "titleAccent": "extras.",
+    "subtitle": "Complementary services that can be added to any appointment"
+  },
+  "empty": {
+    "noData": "No massages yet",
+    "noDataDesc": "Start by adding the first service to your catalogue.",
+    "noResults": "No results for \"{{query}}\"",
+    "noResultsDesc": "Try a different term.",
+    "error": "Could not load the catalogue",
+    "errorDesc": "Check your connection or try again.",
+    "retry": "Retry",
+    "comingSoonTitle": "This view is coming soon",
+    "comingSoonDesc": "We are working on it."
+  },
+  "modal": {
+    "create": {
+      "title": "New service"
+    },
+    "edit": {
+      "title": "Edit service"
+    },
+    "submit": {
+      "create": "Create service",
+      "edit": "Save changes"
+    },
+    "cancel": "Cancel",
+    "delete": {
+      "label": "Delete service",
+      "entityLabel": "this service"
+    }
+  },
+  "form": {
+    "nombre": {
+      "label": "Service name",
+      "placeholder": "e.g. Thai massage 60 min"
+    },
+    "tipoServicio": {
+      "label": "Category",
+      "placeholder": "Select a category"
+    },
+    "duracion": {
+      "label": "Duration (min)"
+    },
+    "precio": {
+      "label": "Price (€)"
+    },
+    "esBono": {
+      "label": "Session package"
+    },
+    "sesionesTotales": {
+      "label": "Number of sessions"
+    },
+    "tieneDescuento": {
+      "label": "Includes a discount"
+    },
+    "porcentajeDescuento": {
+      "label": "Discount (%)"
+    },
+    "centros": {
+      "label": "Available at centres"
+    }
+  },
+  "toast": {
+    "created": "Service created successfully",
+    "updated": "Service updated",
+    "deleted": "Service deleted"
+  },
+  "loading": {
+    "kpis": "Loading KPIs…",
+    "services": "Loading services…"
+  }
+}

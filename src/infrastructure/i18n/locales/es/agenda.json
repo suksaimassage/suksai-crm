@@ -1,0 +1,467 @@
+{
+  "loading": "Cargando agenda…",
+  "pageTitle": "Agenda del estudio.",
+  "pageTitleTherapist": "Tu agenda, {{name}}.",
+  "dateEyebrow": "{{dayName}} · {{date}}",
+  "roleToggle": {
+    "groupLabel": "Vista de la agenda",
+    "admin": "Administración",
+    "therapist": "Terapeuta"
+  },
+  "kpi": {
+    "stripAriaLabel": "KPIs de la agenda",
+    "sinAsignar": "Sin asignar",
+    "reservasHoy": {
+      "label": "Reservas · Hoy",
+      "unit": "citas",
+      "ocupacion": "{{pct}}% ocupación"
+    },
+    "porConfirmar": {
+      "label": "Por confirmar",
+      "sub": "{{n}} vencen en 1 h"
+    },
+    "terapeutasActivos": {
+      "label": "Terapeutas activos",
+      "sub": "{{name}} · libranza"
+    },
+    "ingresosPrevistos": {
+      "label": "Ingresos previstos",
+      "unit": "€",
+      "sub": "+{{n}} € vs ayer"
+    },
+    "listaEspera": {
+      "label": "Lista de espera",
+      "sub": "Si hay huecos, avisar"
+    }
+  },
+  "filter": {
+    "day": "Día",
+    "week": "Semana",
+    "month": "Mes",
+    "list": "Lista",
+    "today": "Hoy",
+    "prevDay": "Día anterior",
+    "nextDay": "Día siguiente",
+    "prevWeek": "Semana anterior",
+    "nextWeek": "Semana siguiente",
+    "prevMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "centro": "Centro",
+    "terapeutas": "Terapeutas",
+    "servicio": "Servicio",
+    "estado": "Estado",
+    "sala": "Sala",
+    "newAppointment": "Nueva cita",
+    "openDatePicker": "Abrir selector de fecha",
+    "dateViewAriaLabel": "Vista de fecha",
+    "filtersGroupAriaLabel": "Filtros"
+  },
+  "rail": {
+    "pendingTitle": "Por confirmar",
+    "pendingCount": "{{n}} pendientes",
+    "noPending": "No hay citas pendientes",
+    "confirm": "Confirmar",
+    "reassign": "Reasignar",
+    "alertsTitle": "Alertas del día",
+    "legendTitle": "Leyenda de rituales",
+    "vence": "Vence en 1 h",
+    "meta": "{{day}} {{time}} · CON {{therapist}}",
+    "metaUrgent": "{{day}} {{time}} · CON {{therapist}} · VENCE EN 1 H",
+    "alertType": {
+      "double_booking": "Solapamiento",
+      "cancellation": "Cancelación",
+      "warning": "Aviso",
+      "missing_schedule": "Horario no encontrado",
+      "sin_asignar": "Sin asignar"
+    },
+    "unassignedTitle": "Sin asignar",
+    "unassignedCount_one": "{{count}} cita sin asignar",
+    "unassignedCount_other": "{{count}} citas sin asignar",
+    "assignMasajista": "Asignar terapeuta",
+    "assignCliente": "Asignar cliente",
+    "assignSala": "Asignar sala",
+    "sinCliente": "Sin cliente",
+    "sinTerapeuta": "Sin terapeuta",
+    "sinSala": "Sin sala"
+  },
+  "estado": {
+    "sin_asignar": "Sin asignar",
+    "pendiente": "Por confirmar",
+    "confirmada": "Confirmada",
+    "en_curso": "En curso",
+    "completada": "Completada",
+    "cancelada": "Cancelada",
+    "no_presentado": "No presentado",
+    "menu": {
+      "label": "Cambiar estado",
+      "applying": "Aplicando…",
+      "noTransitions": "Sin cambios disponibles"
+    }
+  },
+  "detail": {
+    "title": "Detalle de la cita",
+    "loading": "Cargando cita…",
+    "notFoundTitle": "Cita no encontrada",
+    "notFoundDescription": "Puede que se haya eliminado o cambiado.",
+    "errorTitle": "No se pudo cargar la cita",
+    "errorDescription": "Inténtalo de nuevo.",
+    "retry": "Reintentar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "edit": "Editar",
+    "cancel": "Cancelar cita",
+    "couple": "pareja",
+    "centro": "Centro",
+    "meta": {
+      "time": "{{start}}–{{end}} · {{duration}} min",
+      "service": "{{service}} · {{room}}",
+      "therapist": "Terapeuta: {{name}}",
+      "center": "{{center}}"
+    }
+  },
+  "modal": {
+    "cita": {
+      "createTitle": "Nueva cita",
+      "editTitle": "Editar cita",
+      "submitCreate": "Crear cita",
+      "submitEdit": "Guardar cambios",
+      "cancel": "Cancelar",
+      "centro": {
+        "label": "Centro",
+        "placeholder": "Selecciona un centro",
+        "empty": "No hay centros",
+        "required": "Selecciona un centro"
+      },
+      "cliente": {
+        "label": "Cliente",
+        "placeholder": "Busca un cliente…",
+        "empty": "No hay clientes",
+        "hint": "Crea un cliente primero"
+      },
+      "servicio": {
+        "label": "Servicio",
+        "placeholder": "Selecciona un servicio",
+        "empty": "No hay servicios",
+        "hint": "Activa un servicio en este centro"
+      },
+      "therapist": {
+        "label": "Terapeuta",
+        "placeholder": "Selecciona un terapeuta",
+        "empty": "No hay terapeutas",
+        "hint": "Asigna un terapeuta a este centro",
+        "centroMismatch": "Esa masajista no pertenece a ese centro"
+      },
+      "sala": {
+        "label": "Sala",
+        "placeholder": "Selecciona una sala",
+        "empty": "No hay salas",
+        "hint": "Crea una sala primero"
+      },
+      "fecha": {
+        "label": "Fecha",
+        "placeholder": "Elige una fecha"
+      },
+      "horaInicio": {
+        "label": "Hora de inicio",
+        "placeholder": "Selecciona una hora",
+        "loading": "Buscando huecos…",
+        "empty": "Sin huecos disponibles",
+        "needsFields": "Elige servicio y fecha primero",
+        "noSchedule": "Sin horario ese día · se muestra el turno completo",
+        "noTherapistFallback": "Sin terapeuta asignado · horario general 10:00–20:00",
+        "error": "No se pudo comprobar la disponibilidad"
+      },
+      "horaFin": {
+        "label": "Fin",
+        "value": "Termina {{end}} · {{duration}} min",
+        "pending": "Selecciona servicio y hora"
+      },
+      "precio": {
+        "label": "Precio previsto",
+        "loading": "Calculando…"
+      },
+      "estado": {
+        "label": "Estado",
+        "terminal": "Estado final — sin cambios disponibles"
+      },
+      "observaciones": {
+        "label": "Observaciones",
+        "optional": "(opcional)",
+        "placeholder": "Notas internas de la cita"
+      },
+      "idRequired": "ID de cita requerido",
+      "loadingOptions": "Cargando…",
+      "prefilling": "Cargando cita…",
+      "validating": "Comprobando disponibilidad…",
+      "missingPrereqsTitle": "Faltan datos para reservar",
+      "missingPrereqsDescription": "Configura clientes, servicios, salas y terapeutas en este centro antes de crear una cita.",
+      "errorNetwork": "No se pudo guardar. Inténtalo de nuevo.",
+      "retry": "Reintentar"
+    }
+  },
+  "cancel": {
+    "title": "Cancelar cita",
+    "message": "Vas a cancelar la cita de {{cliente}} del {{fecha}} a las {{hora}}.",
+    "motivoLabel": "Motivo",
+    "motivoOptional": "(opcional)",
+    "motivoPlaceholder": "Motivo de la cancelación",
+    "confirm": "Sí, cancelar",
+    "cancel": "Volver",
+    "blockedTitle": "No se puede cancelar",
+    "blockedCompleted": "Esta cita ya está completada y no puede cancelarse.",
+    "blockedCancelled": "Esta cita ya está cancelada.",
+    "blockedAck": "Entendido"
+  },
+  "reschedule": {
+    "title": "¿Mover esta cita?",
+    "summary": "{{cliente}} · {{servicio}}",
+    "fromLabel": "De",
+    "toLabel": "A",
+    "fromValue": "{{fecha}} · {{hora}}",
+    "toValue": "{{fecha}} · {{hora}}",
+    "therapistLabel": "Terapeuta",
+    "reassignBadge": "Reasignación",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "overlapHint": "Puede solaparse con otra cita; se validará al confirmar.",
+    "genericError": "No se pudo reagendar la cita. Inténtalo de nuevo."
+  },
+  "calendarOverlay": {
+    "titleCreate": "Nueva cita",
+    "titleEdit": "Editar cita",
+    "subtitle": "{{centro}} · semana del {{rango}}",
+    "close": "Cerrar",
+    "weekSectionLabel": "Vista de semana",
+    "kanbanSectionLabel": "Citas del día seleccionado",
+    "formSectionLabel": "Formulario de cita",
+    "weekNav": {
+      "prev": "Semana anterior",
+      "next": "Semana siguiente",
+      "today": "Hoy"
+    },
+    "dayCount_zero": "Sin citas",
+    "dayCount_one": "{{count}} cita",
+    "dayCount_other": "{{count}} citas",
+    "columns": {
+      "sinAsignar": "Sin asignar",
+      "asignadas": "Asignadas"
+    },
+    "empty": {
+      "sinAsignar": "No hay citas sin asignar",
+      "asignadas": "No hay citas asignadas",
+      "day": "No hay citas para este día"
+    },
+    "card": {
+      "unassigned": "Sin asignar",
+      "noRoom": "Sala por definir",
+      "ariaLabel": "{{hora}}, {{servicio}}, sala {{sala}}, con {{masajista}}, en {{centro}}"
+    },
+    "error": {
+      "week": "No se pudo cargar la semana",
+      "day": "No se pudieron cargar las citas",
+      "retry": "Reintentar"
+    },
+    "a11y": {
+      "dayChanged_one": "{{fecha}}, {{count}} cita",
+      "dayChanged_other": "{{fecha}}, {{count}} citas",
+      "opened": "Panel de calendario abierto"
+    },
+    "discardDialog": {
+      "title": "Cambios sin guardar",
+      "messageSwitch": "Tienes datos sin guardar en esta cita. Si continúas, se perderán.",
+      "messageClose": "Tienes datos sin guardar en esta cita. Si cierras, se perderán.",
+      "confirm": "Descartar cambios",
+      "cancel": "Seguir editando"
+    }
+  },
+  "filterMenu": {
+    "all": "Todos",
+    "clear": "Limpiar",
+    "noOptions": "Sin opciones",
+    "loading": "Cargando…",
+    "terapeutasCount": "{{n}} activos",
+    "centroTitle": "Filtrar por centro",
+    "terapeutasTitle": "Filtrar por terapeuta",
+    "servicioTitle": "Filtrar por servicio",
+    "estadoTitle": "Filtrar por estado"
+  },
+  "therapistSelector": {
+    "label": "Terapeuta",
+    "placeholder": "Selecciona un terapeuta",
+    "loading": "Cargando terapeutas…",
+    "empty": "Sin terapeutas en este centro",
+    "emptyHint": "Asigna terapeutas a este centro para ver su agenda.",
+    "loadingAgenda": "Cargando agenda de {{name}}…",
+    "announce": "Mostrando agenda de {{name}}"
+  },
+  "nullCentro": {
+    "title": "Sin centro asignado",
+    "description": "Tu usuario no está asignado a ningún centro. Pide a un administrador que te asigne uno para ver la agenda."
+  },
+  "toast": {
+    "created": "Cita creada",
+    "updated": "Cita actualizada",
+    "confirmed": "Cita confirmada",
+    "reassigned": "Cita reasignada",
+    "estadoChanged": "Estado actualizado",
+    "cancelled": "Cita cancelada",
+    "errorGeneric": "No se pudo completar la operación",
+    "confirmError": "No se pudo confirmar la cita",
+    "citaSinAsignarCreada": "Cita reservada. Asigna terapeuta, sala y cliente antes de la cita."
+  },
+  "grid": {
+    "calendarAriaLabel": "Calendario de agenda",
+    "emptyTitle": "Sin masajistas disponibles",
+    "emptyDescription": "Masajistas no disponibles o cierre por libranza",
+    "unassignedColumn": "Sin asignación",
+    "unassignedCount": "{{n}} sin asignar"
+  },
+  "therapistStatus": {
+    "noCitas": "Sin citas asignadas",
+    "dayCompleted": "Día completado",
+    "nextCita": "{{time}} · {{sala}}"
+  },
+  "a11y": {
+    "eventLabel": "{{client}} · {{start}}–{{end}} · {{service}} · {{estado}}",
+    "blockLabel": "Bloqueo: {{label}}",
+    "createdAnnounce": "Cita creada para {{cliente}}",
+    "updatedAnnounce": "Cita actualizada",
+    "confirmedAnnounce": "Cita confirmada",
+    "reassignedAnnounce": "Cita reasignada a {{therapist}}",
+    "estadoAnnounce": "Estado cambiado a {{estado}}",
+    "cancelledAnnounce": "Cita cancelada",
+    "rescheduleProposedAnnounce": "Mover cita al {{fecha}} {{hora}}. Confirmación pendiente.",
+    "rescheduledAnnounce": "Cita reagendada al {{fecha}} {{hora}}.",
+    "rescheduleCancelledAnnounce": "Cambio cancelado. La cita permanece el {{fecha}} {{hora}}.",
+    "lockedHint": "(no editable)",
+    "nextCita": "Próxima cita a las {{time}} en {{sala}}"
+  },
+  "legend": {
+    "gold": "Tradicional / Hierbas",
+    "jungle": "Espalda / Reflexología",
+    "lotus": "Pareja / Aromaterapia",
+    "clay": "Primera visita",
+    "sand": "Bloqueo / Pausa",
+    "pending": "Por confirmar",
+    "break": "Descanso",
+    "unassigned": "Sin asignar"
+  },
+  "modeUnavailable": {
+    "title": "Vista en desarrollo",
+    "description": "Esta vista estará disponible próximamente."
+  },
+  "week": {
+    "title": "Semana del {{start}} al {{end}}",
+    "noAppointments": "Sin citas",
+    "nowLine": "Ahora",
+    "legend": "Leyenda de terapeutas",
+    "dayOff": "Libranza",
+    "viewDayAriaLabel": "Ver el día {{day}}",
+    "dayCitaCount_one": "{{count}} cita",
+    "dayCitaCount_other": "{{count}} citas",
+    "cluster": {
+      "title": "Citas solapadas",
+      "count_one": "{{count}} cita",
+      "count_other": "{{count}} citas",
+      "triggerLabel": "Grupo de {{count}} citas, {{start}}–{{end}}",
+      "rowLabel": "{{client}}, {{start}}–{{end}}, {{service}}, {{estado}}",
+      "empty": "Sin citas en este intervalo",
+      "close": "Cerrar"
+    }
+  },
+  "month": {
+    "title": "{{month}} {{year}}",
+    "overflow": "+{{n}} más",
+    "empty": "Sin citas este mes",
+    "footerCitas": "{{n}} CITAS · {{month}}",
+    "footerOcupacion": "{{pct}}% OCUPACIÓN MEDIA",
+    "footerPicos": "PICOS DEL MES",
+    "viewDayAriaLabel": "Ver el día {{day}}",
+    "cellSummary": "{{day}} · {{n}} citas",
+    "cellSummaryToday": "{{day}} (hoy) · {{n}} citas"
+  },
+  "list": {
+    "ariaLabel": "Lista de citas",
+    "empty": "Sin citas esta semana",
+    "statusCompletada": "COMPLETADA",
+    "statusConfirmada": "CONFIRMADA",
+    "statusEnCurso": "EN CURSO",
+    "statusPorConfirmar": "POR CONFIRMAR",
+    "statusPrimeraVisita": "PRIMERA VISITA",
+    "statusCancelada": "CANCELADA"
+  },
+  "therapist": {
+    "viewModeAriaLabel": "Modo de vista",
+    "viewGroupAriaLabel": "Vista del terapeuta",
+    "greeting": "Buen día, {{name}}.",
+    "heroEyebrow": "Tu jornada · {{sala}}",
+    "heroParagraph": "Hoy te acompañan {{count}} clientes. Tu próxima cita comienza en {{nextIn}} minutos.",
+    "stat": {
+      "citas": "Hoy",
+      "horasSala": "Tiempo en sala",
+      "pausas": "Pausas",
+      "valoracion": "Valoración media",
+      "masajesSemana": "Masajes semana",
+      "masajeMasRealizado": "Masaje más realizado"
+    },
+    "myDay": "Mi día",
+    "myWeek": "Mi semana",
+    "timelineTitle": "Tu jornada",
+    "shift": {
+      "statsAriaLabel": "Estadísticas del turno",
+      "title": "Tu turno",
+      "citas": "Clientes hoy",
+      "sala": "En sala",
+      "propinas": "Propinas",
+      "valoracion": "Valoración",
+      "masajesSemana": "Masajes semana",
+      "masajeMasRealizado": "Más realizado"
+    },
+    "notesTitle": "Notas del día",
+    "reviewsTitle": "Últimas reseñas",
+    "timelineStateNow": "AHORA",
+    "timelineEditAriaLabel": "{{client}} {{start}}–{{end}} — editar",
+    "requestLeave": "Pedir libranza",
+    "changeShift": "Cambiar turno",
+    "done": "Completada",
+    "week": {
+      "banner": "Tu semana, {{name}}.",
+      "cornerLabel": "Tu semana",
+      "statCitas": "Citas",
+      "statCompletadas": "Completadas",
+      "statHoras": "Horas en sala",
+      "statPropinas": "Propinas",
+      "statValoracion": "Valoración",
+      "railBalance": "Tu balance",
+      "railUpcoming": "Por venir",
+      "railThisWeek": "Esta semana",
+      "libranza": "Libranza",
+      "noAppointments": "Sin citas",
+      "rowCitas": "{{count}} citas",
+      "rowHoras": "en sala",
+      "descanso": "Descanso",
+      "sundayLabel": "Libranza - estudio cerrado"
+    },
+    "quickEdit": {
+      "title": "Edición rápida",
+      "subtitle": "{{client}} · {{start}}–{{end}}",
+      "observationLabel": "Observación",
+      "observationPlaceholder": "Notas de la sesión…",
+      "markCompleted": "Marcar como completada",
+      "markCompletedArmed": "Se marcará como completada",
+      "hintConfirmFirst": "Confirma la cita antes de completarla.",
+      "hintAssignFirst": "Asigna y confirma la cita antes de completarla.",
+      "statusCompleted": "Completada",
+      "contextCancelled": "Cita cancelada.",
+      "contextNoShow": "Cliente no presentado.",
+      "save": "Guardar",
+      "saveAndComplete": "Guardar y completar",
+      "saving": "Guardando…",
+      "cancel": "Cancelar",
+      "toastSaved": "Observación guardada",
+      "toastCompleted": "Cita completada",
+      "toastError": "No se pudo guardar. Inténtalo de nuevo.",
+      "closeAriaLabel": "Cerrar edición rápida"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "header": {
+    "brandAriaLabel": "Suksai — volver al inicio",
+    "langGroupAriaLabel": "Idioma",
+    "themeToggle": {
+      "toDark": "Cambiar a modo oscuro",
+      "toLight": "Cambiar a modo claro"
+    }
+  },
+  "toc": {
+    "label": "En esta página",
+    "ariaLabel": "Tabla de contenidos"
+  },
+  "backLink": "Volver",
+  "backToTop": "Volver arriba",
+  "terminos-uso": {
+    "title": "Términos de Uso",
+    "lastUpdated": "Última actualización: 21 de julio de 2026",
+    "sections": [
+      {
+        "id": "introduccion",
+        "heading": "Introducción y aceptación de los términos",
+        "body": [
+          "Estos Términos de Uso regulan el acceso y la utilización de Suksai CRM, una plataforma de gestión interna para centros de masaje y bienestar que permite administrar reservas, agendas de terapeutas, clientes y servicios.",
+          "Al acceder a tu cuenta y utilizar la plataforma aceptas quedar vinculado por estos términos, que podrán actualizarse periódicamente. Si no estás de acuerdo con alguna condición, debes abstenerte de utilizar el servicio y contactar con el administrador de tu centro."
+        ]
+      },
+      {
+        "id": "acceso-cuentas",
+        "heading": "Acceso y cuentas de usuario",
+        "body": [
+          "Suksai CRM es una herramienta de gestión interna para centros de masaje y bienestar. El acceso es exclusivamente por invitación: un administrador del centro debe crear y activar tu cuenta antes de que puedas iniciar sesión; no existe registro público ni alta autónoma.",
+          "Cada cuenta tiene asignado uno o varios roles que determinan la información y las funciones a las que puedes acceder. Eres responsable de mantener la confidencialidad de tus credenciales y de notificar de inmediato cualquier uso no autorizado de tu cuenta."
+        ]
+      },
+      {
+        "id": "uso-aceptable",
+        "heading": "Uso aceptable",
+        "body": [
+          "Te comprometes a utilizar la plataforma únicamente para fines legítimos relacionados con la gestión del centro en el que trabajas o que administras, y conforme al rol que te ha sido asignado.",
+          "Queda prohibido intentar acceder a datos de clientes, citas o personal para los que no tengas autorización, así como tratar de eludir los controles de acceso basados en roles de la plataforma."
+        ]
+      },
+      {
+        "id": "modificaciones",
+        "heading": "Modificaciones de los términos",
+        "body": [
+          "Podemos actualizar estos Términos de Uso periódicamente para reflejar cambios en el servicio o en la normativa aplicable. La fecha de «Última actualización» que figura en la parte superior de esta página indica cuándo se revisaron por última vez.",
+          "El uso continuado de la plataforma tras una modificación implica la aceptación de los términos actualizados. Asimismo, Suksai Thai Massage se reserva el derecho a modificar o eliminar, sin previo aviso, la información, la configuración y la presentación de la plataforma."
+        ]
+      },
+      {
+        "id": "propiedad-intelectual",
+        "heading": "Propiedad intelectual",
+        "body": [
+          "Los contenidos de esta plataforma —textos, imágenes, logotipos, diseño gráfico y código fuente— están protegidos por la legislación española sobre propiedad intelectual e industrial a favor de Suksai Thai Massage o de sus licenciantes.",
+          "Queda expresamente prohibida su reproducción, distribución o comunicación pública, total o parcial, sin la autorización expresa y por escrito de Suksai Thai Massage. El uso de la plataforma no otorga ningún derecho de propiedad sobre el software; únicamente se concede una licencia de uso limitada, no exclusiva e intransferible mientras la cuenta permanezca activa."
+        ]
+      },
+      {
+        "id": "contenido-enlaces",
+        "heading": "Contenido y enlaces",
+        "body": [
+          "Suksai Thai Massage no será responsable de los daños o perjuicios que pudieran derivarse de la utilización de los contenidos por parte de las personas usuarias ni de la infracción por su parte de cualquier disposición legal vigente.",
+          "Tampoco asumimos responsabilidad alguna por la información contenida en páginas web de terceros a las que se pueda acceder mediante enlaces desde la plataforma."
+        ]
+      },
+      {
+        "id": "limitacion-responsabilidad",
+        "heading": "Limitación de responsabilidad",
+        "body": [
+          "La plataforma se ofrece «tal cual», sin garantía de disponibilidad continua o ausencia de errores. Realizamos esfuerzos razonables para mantener el servicio operativo, pero no garantizamos que esté libre de interrupciones.",
+          "En la medida permitida por la ley, Suksai Thai Massage no será responsable de los daños derivados de problemas técnicos, fallos en los equipos, interrupciones de la conexión a Internet, ni de los causados por terceros mediante accesos no autorizados fuera de nuestro control."
+        ]
+      },
+      {
+        "id": "ley-aplicable",
+        "heading": "Ley aplicable y jurisdicción",
+        "body": [
+          "Los presentes Términos de Uso se rigen por la legislación española. Cualquier controversia derivada de su interpretación o cumplimiento se someterá a los juzgados y tribunales competentes conforme a la normativa vigente."
+        ]
+      },
+      {
+        "id": "contacto",
+        "heading": "Contacto",
+        "body": [
+          "Para cualquier consulta relacionada con estos Términos de Uso puedes escribirnos a: Suksai Thai Massage · info@suksaimassage.com."
+        ]
+      }
+    ]
+  },
+  "privacidad": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 21 de julio de 2026",
+    "sections": [
+      {
+        "id": "introduccion",
+        "heading": "Introducción",
+        "body": [
+          "En Suksai Thai Massage nos comprometemos a proteger y respetar tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos los datos personales tratados a través de Suksai CRM.",
+          "La información de este documento cumple con el Reglamento General de Protección de Datos (RGPD) y con la Ley de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE)."
+        ]
+      },
+      {
+        "id": "responsable-tratamiento",
+        "heading": "Responsable del tratamiento",
+        "body": [
+          "El responsable del tratamiento de los datos personales gestionados a través de Suksai CRM es Suksai Thai Massage. Puedes contactar con el responsable en info@suksaimassage.com."
+        ]
+      },
+      {
+        "id": "datos-recopilados",
+        "heading": "Qué datos recopilamos",
+        "body": [
+          "Datos del personal (usuarios de la plataforma): nombre, apellidos, correo electrónico, teléfono y el rol o roles asignados. Estas cuentas se crean por invitación y se autentican mediante Supabase Auth.",
+          "Datos de clientes del centro: nombre, apellidos, correo electrónico, teléfono y observaciones asociadas a sus citas. Los clientes del centro no disponen de acceso de inicio de sesión; sus datos son gestionados exclusivamente por el personal autorizado.",
+          "Datos de citas: fecha, hora, terapeuta asignado, sala, servicio y cliente vinculado, necesarios para la gestión operativa de la agenda del centro."
+        ]
+      },
+      {
+        "id": "finalidad",
+        "heading": "Finalidad del tratamiento",
+        "body": [
+          "Los datos se tratan con la finalidad de gestionar reservas y citas, administrar las fichas de clientes y coordinar los horarios y la disponibilidad del personal terapeuta del centro."
+        ]
+      },
+      {
+        "id": "base-legal",
+        "heading": "Base legal",
+        "body": [
+          "El tratamiento de los datos del personal se basa en la relación contractual o laboral con el centro. El tratamiento de los datos de clientes se basa en la ejecución de la relación de prestación de servicios de masaje y bienestar solicitada por el propio cliente."
+        ]
+      },
+      {
+        "id": "cookies-almacenamiento",
+        "heading": "Uso de cookies y almacenamiento local",
+        "body": [
+          "Suksai CRM no utiliza cookies de seguimiento, de publicidad ni de terceros. No incorporamos contenido de redes sociales ni herramientas de analítica que instalen cookies en tu dispositivo.",
+          "Utilizamos el almacenamiento local del navegador (localStorage) únicamente para recordar tu preferencia de tema visual (claro/oscuro) y tu idioma. Esta información permanece en tu dispositivo y no se comparte con terceros."
+        ]
+      },
+      {
+        "id": "destinatarios",
+        "heading": "Con quién compartimos tus datos",
+        "body": [
+          "Los datos son accesibles únicamente por el personal del centro con el rol adecuado, conforme a las políticas de control de acceso basado en roles de la plataforma.",
+          "Los datos se alojan en Supabase, nuestro proveedor de infraestructura de base de datos y autenticación, que actúa como encargado del tratamiento. No vendemos ni cedemos tus datos a terceros con fines comerciales."
+        ]
+      },
+      {
+        "id": "conservacion",
+        "heading": "Cuánto tiempo conservamos tus datos",
+        "body": [
+          "Los datos se conservan mientras la cuenta o la relación con el centro permanezca activa, y posteriormente durante los plazos exigidos por la normativa fiscal y mercantil aplicable. Las cuentas y registros desactivados se conservan mediante mecanismos de baja lógica en lugar de eliminación inmediata."
+        ]
+      },
+      {
+        "id": "transferencias-internacionales",
+        "heading": "Transferencias internacionales",
+        "body": [
+          "En caso de que el proveedor de infraestructura aloje datos fuera del Espacio Económico Europeo, dicha transferencia se realiza conforme a las garantías exigidas por la normativa de protección de datos aplicable, como las cláusulas contractuales tipo."
+        ]
+      },
+      {
+        "id": "derechos-usuario",
+        "heading": "Tus derechos sobre tus datos",
+        "body": [
+          "Tienes derecho a acceder, rectificar, suprimir y portar tus datos personales, así como a oponerte a su tratamiento y a solicitar la limitación del mismo.",
+          "Para ejercer estos derechos puedes contactar con el responsable del tratamiento en info@suksaimassage.com. Algunos datos pueden conservarse por razones administrativas, legales o de seguridad."
+        ]
+      },
+      {
+        "id": "seguridad",
+        "heading": "Seguridad de los datos",
+        "body": [
+          "El acceso a la plataforma requiere autenticación mediante Supabase Auth, y el acceso a los datos está restringido por políticas de seguridad a nivel de fila (Row Level Security) según el rol de cada usuario.",
+          "Las contraseñas son gestionadas íntegramente por Supabase Auth: nunca se almacenan ni se procesan directamente por nuestra aplicación. Adoptamos medidas técnicas y organizativas adecuadas para proteger tus datos frente a accesos no autorizados, alteración, divulgación o destrucción."
+        ]
+      },
+      {
+        "id": "menores-edad",
+        "heading": "Menores de edad",
+        "body": [
+          "La plataforma está dirigida al personal profesional de centros de masaje y no está destinada a menores de edad. Los datos de clientes menores de edad, si procede, deben gestionarse con el consentimiento de sus representantes legales conforme a la normativa aplicable."
+        ]
+      },
+      {
+        "id": "cambios",
+        "heading": "Cambios en esta política",
+        "body": [
+          "Nos reservamos el derecho de modificar esta Política de Privacidad para reflejar cambios normativos o en nuestras prácticas de tratamiento de datos. Cualquier cambio se publicará en esta página, y la fecha de «Última actualización» indicará la versión vigente."
+        ]
+      },
+      {
+        "id": "contacto",
+        "heading": "Contacto",
+        "body": [
+          "Para cualquier consulta relacionada con esta Política de Privacidad o para ejercer tus derechos, puedes escribirnos a: Suksai Thai Massage · info@suksaimassage.com."
+        ]
+      }
+    ]
+  }
+}

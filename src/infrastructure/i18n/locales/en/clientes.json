@@ -1,0 +1,151 @@
+{
+  "page": {
+    "eyebrow": "Client Management",
+    "title": "Clients",
+    "description": "Search, filter and manage your clients' history.",
+    "loading": "Loading clients…"
+  },
+  "kpi": {
+    "totalClientes": "Total Clients",
+    "nuevos30Dias": "New (30 days)",
+    "recurrencia": "Recurrence",
+    "gastoMedio": "Avg. Spend"
+  },
+  "segmento": {
+    "todos": "All",
+    "vip": "VIP",
+    "activo": "Active",
+    "nuevo": "New",
+    "en_riesgo": "At risk",
+    "inactivo": "Inactive"
+  },
+  "frecuencia": {
+    "semanal": "Weekly",
+    "frecuente": "Frequent",
+    "regular": "Regular",
+    "mensual": "Monthly",
+    "ocasional": "Occasional",
+    "sinDatos": "No data"
+  },
+  "filter": {
+    "segmento": "Filter by segment",
+    "frecuencia": "Visit frequency"
+  },
+  "toolbar": {
+    "buscar": "Client search",
+    "buscarPlaceholder": "Search by name, email or phone…"
+  },
+  "table": {
+    "cliente": "Client",
+    "estado": "Status",
+    "frecuencia": "Frequency",
+    "ultimaVisita": "Last visit",
+    "servicioTop": "Most requested service",
+    "sinVisita": "No visits recorded",
+    "sinServicio": "No service recorded",
+    "mostrando": "{{count}} of {{total}} clients",
+    "verDetalle": "View detail for",
+    "acciones": {
+      "editar": "Edit",
+      "agendar": "Schedule",
+      "email": "Send email to",
+      "mas": "More options for"
+    }
+  },
+  "panel": {
+    "titulo": "Client detail",
+    "cerrar": "Close client panel",
+    "nacimiento": "Born {{date}}",
+    "enviarCorreo": "Send email to {{email}}",
+    "contacto": "Contact",
+    "sinEmail": "No email on file",
+    "citas": "Appointment history",
+    "sinCitas": "No appointments on record",
+    "preferencias": "Preferences",
+    "notaEstudio": "Study note",
+    "visitas": "Visits",
+    "gastoAnio": "Annual spend",
+    "puntos": "Points",
+    "autorDesconocido": "Unknown author",
+    "error": "Could not load client detail.",
+    "miembroDesde": "Member since {{date}}"
+  },
+  "actions": {
+    "add": "New client",
+    "mensaje": "Message",
+    "agendar": "Schedule",
+    "agendarProximamente": "Schedule (coming soon)",
+    "sinEmail": "No email — cannot send message",
+    "editar": "Edit",
+    "eliminar": "Delete",
+    "reactivar": "Reactivate"
+  },
+  "deactivate": {
+    "title": "Delete client",
+    "confirmSafe": "Are you sure you want to delete {{name}}? You can reactivate them from the 'Inactive' filter.",
+    "confirmWarning": "Are you sure you want to delete {{name}}?",
+    "citasWarning": "This client has {{count}} upcoming appointments that will be cancelled automatically.",
+    "confirmBtn": "Confirm",
+    "confirmBtnWarning": "Confirm deletion",
+    "countError": "Could not verify pending appointments. Please try again."
+  },
+  "empty": {
+    "title": "No clients",
+    "description": "No clients match the selected filters.",
+    "action": "Clear filters"
+  },
+  "error": {
+    "title": "Load error",
+    "description": "Could not load clients. Please try again.",
+    "retry": "Retry"
+  },
+  "modal": {
+    "create": {
+      "title": "New client"
+    },
+    "edit": {
+      "title": "Edit client"
+    },
+    "submit": {
+      "create": "Create client",
+      "edit": "Save changes"
+    },
+    "cancel": "Cancel",
+    "delete": {
+      "label": "Delete client",
+      "entityLabel": "this client"
+    }
+  },
+  "form": {
+    "nombre": {
+      "label": "First name",
+      "placeholder": "Client first name"
+    },
+    "apellidos": {
+      "label": "Last name",
+      "placeholder": "Client last name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "email@example.com"
+    },
+    "telefono": {
+      "label": "Phone",
+      "placeholder": "+44 7700 000000"
+    },
+    "observaciones": {
+      "label": "Notes",
+      "placeholder": "Internal notes about the client…"
+    }
+  },
+  "toast": {
+    "created": "Client created successfully",
+    "updated": "Client updated",
+    "deleted": "Client deleted",
+    "reactivated": "Client reactivated"
+  },
+  "reactivate": {
+    "message": "Are you sure you want to reactivate {{name}}?",
+    "messageFallback": "Are you sure you want to reactivate this client?"
+  }
+}

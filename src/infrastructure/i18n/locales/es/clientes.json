@@ -1,0 +1,151 @@
+{
+  "page": {
+    "eyebrow": "Gestión de Clientes",
+    "title": "Clientes",
+    "description": "Consulta, filtra y gestiona el historial de tus clientes.",
+    "loading": "Cargando clientes…"
+  },
+  "kpi": {
+    "totalClientes": "Total Clientes",
+    "nuevos30Dias": "Nuevos (30 días)",
+    "recurrencia": "Recurrencia",
+    "gastoMedio": "Gasto Medio"
+  },
+  "segmento": {
+    "todos": "Todos",
+    "vip": "VIP",
+    "activo": "Activo",
+    "nuevo": "Nuevo",
+    "en_riesgo": "En riesgo",
+    "inactivo": "Inactivo"
+  },
+  "frecuencia": {
+    "semanal": "Semanal",
+    "frecuente": "Frecuente",
+    "regular": "Regular",
+    "mensual": "Mensual",
+    "ocasional": "Ocasional",
+    "sinDatos": "Sin datos"
+  },
+  "filter": {
+    "segmento": "Filtrar por segmento",
+    "frecuencia": "Frecuencia de visitas"
+  },
+  "toolbar": {
+    "buscar": "Búsqueda de clientes",
+    "buscarPlaceholder": "Buscar por nombre, email o teléfono…"
+  },
+  "table": {
+    "cliente": "Cliente",
+    "estado": "Estado",
+    "frecuencia": "Frecuencia",
+    "ultimaVisita": "Última visita",
+    "servicioTop": "Servicio más solicitado",
+    "sinVisita": "Sin visitas registradas",
+    "sinServicio": "Sin servicio registrado",
+    "mostrando": "{{count}} de {{total}} clientes",
+    "verDetalle": "Ver detalle de",
+    "acciones": {
+      "editar": "Editar",
+      "agendar": "Agendar",
+      "email": "Enviar email a",
+      "mas": "Más opciones para"
+    }
+  },
+  "panel": {
+    "titulo": "Detalle del cliente",
+    "cerrar": "Cerrar panel de cliente",
+    "nacimiento": "Nac. {{date}}",
+    "enviarCorreo": "Enviar correo a {{email}}",
+    "contacto": "Contacto",
+    "sinEmail": "Sin email registrado",
+    "citas": "Historial de citas",
+    "sinCitas": "Sin citas registradas",
+    "preferencias": "Preferencias",
+    "notaEstudio": "Nota de estudio",
+    "visitas": "Visitas",
+    "gastoAnio": "Gasto año",
+    "puntos": "Puntos",
+    "autorDesconocido": "Autor desconocido",
+    "error": "No se pudo cargar el detalle del cliente.",
+    "miembroDesde": "Miembro desde {{date}}"
+  },
+  "actions": {
+    "add": "Nuevo cliente",
+    "mensaje": "Mensaje",
+    "agendar": "Agendar",
+    "agendarProximamente": "Agendar (próximamente)",
+    "sinEmail": "Sin email — no se puede enviar mensaje",
+    "editar": "Editar",
+    "eliminar": "Eliminar",
+    "reactivar": "Reactivar"
+  },
+  "deactivate": {
+    "title": "Eliminar cliente",
+    "confirmSafe": "¿Seguro que quieres eliminar a {{name}}? Podrás reactivarlo desde el filtro 'Inactivos'.",
+    "confirmWarning": "¿Seguro que quieres eliminar a {{name}}?",
+    "citasWarning": "Este cliente tiene {{count}} citas futuras que serán canceladas automáticamente.",
+    "confirmBtn": "Confirmar",
+    "confirmBtnWarning": "Confirmar eliminación",
+    "countError": "No se pudo verificar las citas pendientes. Inténtalo de nuevo."
+  },
+  "empty": {
+    "title": "Sin clientes",
+    "description": "No hay clientes que coincidan con los filtros seleccionados.",
+    "action": "Limpiar filtros"
+  },
+  "error": {
+    "title": "Error al cargar",
+    "description": "No se pudieron cargar los clientes. Por favor, inténtalo de nuevo.",
+    "retry": "Reintentar"
+  },
+  "modal": {
+    "create": {
+      "title": "Nuevo cliente"
+    },
+    "edit": {
+      "title": "Editar cliente"
+    },
+    "submit": {
+      "create": "Crear cliente",
+      "edit": "Guardar cambios"
+    },
+    "cancel": "Cancelar",
+    "delete": {
+      "label": "Eliminar cliente",
+      "entityLabel": "este cliente"
+    }
+  },
+  "form": {
+    "nombre": {
+      "label": "Nombre",
+      "placeholder": "Nombre del cliente"
+    },
+    "apellidos": {
+      "label": "Apellidos",
+      "placeholder": "Apellidos del cliente"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "correo@ejemplo.com"
+    },
+    "telefono": {
+      "label": "Teléfono",
+      "placeholder": "600 000 000"
+    },
+    "observaciones": {
+      "label": "Observaciones",
+      "placeholder": "Notas internas sobre el cliente…"
+    }
+  },
+  "toast": {
+    "created": "Cliente creado con éxito",
+    "updated": "Cliente actualizado",
+    "deleted": "Cliente eliminado",
+    "reactivated": "Cliente reactivado"
+  },
+  "reactivate": {
+    "message": "¿Seguro que quieres reactivar a {{name}}?",
+    "messageFallback": "¿Seguro que quieres reactivar a este cliente?"
+  }
+}

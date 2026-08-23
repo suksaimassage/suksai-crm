@@ -1,0 +1,71 @@
+{
+  "name": "stm-crm-appointments",
+  "version": "1.0.0",
+  "description": "Suksai Thai Massage Appointments CRM App",
+  "homepage": "https://github.com/demosquerag/stm-crm-appointments#readme",
+  "bugs": {
+    "url": "https://github.com/demosquerag/stm-crm-appointments/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demosquerag/stm-crm-appointments.git"
+  },
+  "private": true,
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.app.json --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.node.json --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:report": "eslint . --format json --output-file reports/eslint.json",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,md}\" \"*.{ts,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,json,md}\" \"*.{ts,json,md}\"",
+    "check": "npm run typecheck && npm run lint && npm run format:check",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
+  },
+  "packageManager": "pnpm@11.1.2",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@styled/typescript-styled-plugin": "^1.0.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "@vitest/coverage-v8": "^4.1.8",
+    "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "jiti": "^2.7.0",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.1",
+    "vite": "^8.0.10",
+    "vite-plugin-svgr": "^5.2.0",
+    "vitest": "^4.1.5"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.1",
+    "@tanstack/react-query": "^5.100.6",
+    "@tanstack/react-router": "^1.169.1",
+    "i18next": "^26.0.8",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-i18next": "^17.0.6",
+    "styled-components": "^6.4.1",
+    "zod": "^4.4.1",
+    "zustand": "^5.0.12"
+  }
+}

@@ -1,0 +1,1 @@
+export { BootstrapSplash } from './BootstrapSplash';

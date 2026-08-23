@@ -1,0 +1,90 @@
+{
+  "loading": "Cargando…",
+  "retry": "Reintentar",
+  "close": "Cerrar",
+  "modal": {
+    "cerrar": "Cerrar modal"
+  },
+  "errors": {
+    "offlineTitle": "Sin conexión",
+    "offlineBody": "Revisa tu conexión a internet."
+  },
+  "themeToggle": {
+    "toDark": "Cambiar a modo oscuro",
+    "toLight": "Cambiar a modo claro"
+  },
+  "lang": {
+    "es": "ES",
+    "en": "EN"
+  },
+  "comingSoon": "Próximamente",
+  "comingSoonSub": "Próximamente disponible",
+  "error": {
+    "notFound": {
+      "ariaLabel": "Página no encontrada",
+      "heading": "Página no encontrada",
+      "description": "La ruta que buscas no existe.",
+      "backHome": "Volver al inicio"
+    }
+  },
+  "datePicker": {
+    "hourAriaLabel": "Hora",
+    "minuteAriaLabel": "Minutos",
+    "clearAriaLabel": "Limpiar",
+    "selectDateAriaLabel": "Seleccionar fecha",
+    "selectStartDateAriaLabel": "Seleccionar fecha de inicio",
+    "selectEndDateAriaLabel": "Seleccionar fecha de fin",
+    "prevMonthAriaLabel": "Mes anterior",
+    "nextMonthAriaLabel": "Mes siguiente",
+    "rangeStartLabel": "Inicio",
+    "rangeEndLabel": "Fin",
+    "timeStartLabel": "Hora de inicio",
+    "timeEndLabel": "Hora de fin",
+    "rangeStartPlaceholder": "Fecha inicio",
+    "rangeEndPlaceholder": "Fecha fin",
+    "dateTimeStartPlaceholder": "Inicio",
+    "dateTimeEndPlaceholder": "Fin"
+  },
+  "table": {
+    "columnsVisibleAriaLabel": "Columnas visibles",
+    "columnVisibilityAriaLabel": "Visibilidad de columnas",
+    "prevPageAriaLabel": "Anterior",
+    "nextPageAriaLabel": "Siguiente",
+    "selectAllAriaLabel": "Seleccionar todos",
+    "noResults": "Sin resultados",
+    "paginationRange": "{{start}}–{{end}} de {{total}}",
+    "resetFilters": "Restablecer filtros",
+    "pageSizeLabel": "Filas por página"
+  },
+  "toast": {
+    "closeAriaLabel": "Cerrar notificación"
+  },
+  "select": {
+    "clearAriaLabel": "Limpiar selección",
+    "searchAriaLabel": "Buscar opción",
+    "searchPlaceholder": "Buscar...",
+    "noResults": "Sin resultados",
+    "optionsAriaLabel": "Opciones"
+  },
+  "form": {
+    "clearFieldAriaLabel": "Limpiar campo",
+    "searchResultsAriaLabel": "Resultados de búsqueda",
+    "clearSearchAriaLabel": "Limpiar búsqueda"
+  },
+  "dropdown": {
+    "menuAriaLabel": "Menú de opciones"
+  },
+  "navbar": {
+    "navAriaLabel": "Navegación principal",
+    "menuAriaLabel": "Menú de navegación"
+  },
+  "popover": {
+    "closeAriaLabel": "Cerrar popover"
+  },
+  "image": {
+    "closeLightboxAriaLabel": "Cerrar vista de pantalla completa"
+  },
+  "calendarVolume": {
+    "timeAriaLabel": "Hora"
+  }
+}

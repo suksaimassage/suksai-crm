@@ -1,0 +1,203 @@
+{
+  "header": {
+    "brandAriaLabel": "Suksai — back to home",
+    "langGroupAriaLabel": "Language",
+    "themeToggle": {
+      "toDark": "Switch to dark mode",
+      "toLight": "Switch to light mode"
+    }
+  },
+  "toc": {
+    "label": "On this page",
+    "ariaLabel": "Table of contents"
+  },
+  "backLink": "Back",
+  "backToTop": "Back to top",
+  "terminos-uso": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: 21 July 2026",
+    "sections": [
+      {
+        "id": "introduccion",
+        "heading": "Introduction and acceptance of the terms",
+        "body": [
+          "These Terms of Use govern access to and use of Suksai CRM, an internal management platform for massage and wellness centers that allows managing bookings, therapist schedules, clients and services.",
+          "By accessing your account and using the platform you agree to be bound by these terms, which may be updated periodically. If you do not agree with any condition, you must refrain from using the service and contact your center's administrator."
+        ]
+      },
+      {
+        "id": "acceso-cuentas",
+        "heading": "Access and user accounts",
+        "body": [
+          "Suksai CRM is an internal management tool for massage and wellness centers. Access is by invitation only: a center administrator must create and activate your account before you can sign in; there is no public registration or self sign-up.",
+          "Each account is assigned one or more roles that determine the information and features you can access. You are responsible for keeping your credentials confidential and for reporting any unauthorized use of your account immediately."
+        ]
+      },
+      {
+        "id": "uso-aceptable",
+        "heading": "Acceptable use",
+        "body": [
+          "You agree to use the platform solely for legitimate purposes related to managing the center where you work or which you administer, and in accordance with the role assigned to you.",
+          "It is prohibited to attempt to access client, appointment or staff data you are not authorized to see, or to attempt to bypass the platform's role-based access controls."
+        ]
+      },
+      {
+        "id": "modificaciones",
+        "heading": "Changes to the terms",
+        "body": [
+          "We may update these Terms of Use periodically to reflect changes in the service or in applicable regulations. The \"Last updated\" date shown at the top of this page indicates when they were last revised.",
+          "Continued use of the platform after a change implies acceptance of the updated terms. Suksai Thai Massage also reserves the right to modify or remove, without prior notice, the information, configuration and presentation of the platform."
+        ]
+      },
+      {
+        "id": "propiedad-intelectual",
+        "heading": "Intellectual property",
+        "body": [
+          "The contents of this platform —text, images, logos, graphic design and source code— are protected by Spanish intellectual and industrial property law in favor of Suksai Thai Massage or its licensors.",
+          "Their reproduction, distribution or public communication, in whole or in part, without the express written authorization of Suksai Thai Massage, is expressly prohibited. Use of the platform grants no ownership right over the software; only a limited, non-exclusive and non-transferable license of use is granted while the account remains active."
+        ]
+      },
+      {
+        "id": "contenido-enlaces",
+        "heading": "Content and links",
+        "body": [
+          "Suksai Thai Massage shall not be liable for any damages arising from users' use of the content or from their breach of any applicable legal provision.",
+          "Nor do we assume any liability for the information contained on third-party websites that may be reached through links from the platform."
+        ]
+      },
+      {
+        "id": "limitacion-responsabilidad",
+        "heading": "Limitation of liability",
+        "body": [
+          "The platform is provided \"as is\", without any guarantee of continuous availability or freedom from errors. We make reasonable efforts to keep the service operational, but we do not guarantee that it will be uninterrupted.",
+          "To the extent permitted by law, Suksai Thai Massage shall not be liable for damages arising from technical problems, equipment failures, Internet connection interruptions, or those caused by third parties through unauthorized access beyond our control."
+        ]
+      },
+      {
+        "id": "ley-aplicable",
+        "heading": "Governing law and jurisdiction",
+        "body": [
+          "These Terms of Use are governed by Spanish law. Any dispute arising from their interpretation or performance shall be submitted to the competent courts and tribunals in accordance with applicable regulations."
+        ]
+      },
+      {
+        "id": "contacto",
+        "heading": "Contact",
+        "body": [
+          "For any query regarding these Terms of Use you can write to us at: Suksai Thai Massage · info@suksaimassage.com."
+        ]
+      }
+    ]
+  },
+  "privacidad": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: 21 July 2026",
+    "sections": [
+      {
+        "id": "introduccion",
+        "heading": "Introduction",
+        "body": [
+          "At Suksai Thai Massage we are committed to protecting and respecting your privacy. This Privacy Policy explains how we collect, use, share and protect the personal data processed through Suksai CRM.",
+          "The information in this document complies with the General Data Protection Regulation (GDPR) and with Spanish Law on Information Society Services and Electronic Commerce (LSSI-CE)."
+        ]
+      },
+      {
+        "id": "responsable-tratamiento",
+        "heading": "Data controller",
+        "body": [
+          "The controller of the personal data managed through Suksai CRM is Suksai Thai Massage. You can contact the controller at info@suksaimassage.com."
+        ]
+      },
+      {
+        "id": "datos-recopilados",
+        "heading": "What data we collect",
+        "body": [
+          "Staff data (platform users): first name, surname, email address, phone number and the assigned role or roles. These accounts are created by invitation and authenticated via Supabase Auth.",
+          "Center client data: first name, surname, email address, phone number and notes associated with their appointments. Center clients do not have sign-in access; their data is managed exclusively by authorized staff.",
+          "Appointment data: date, time, assigned therapist, room, service and linked client, required for the operational management of the center's schedule."
+        ]
+      },
+      {
+        "id": "finalidad",
+        "heading": "Purpose of processing",
+        "body": [
+          "Data is processed for the purpose of managing bookings and appointments, administering client records, and coordinating the schedules and availability of the center's therapy staff."
+        ]
+      },
+      {
+        "id": "base-legal",
+        "heading": "Legal basis",
+        "body": [
+          "The processing of staff data is based on the contractual or employment relationship with the center. The processing of client data is based on the performance of the massage and wellness services relationship requested by the client."
+        ]
+      },
+      {
+        "id": "cookies-almacenamiento",
+        "heading": "Cookies and local storage",
+        "body": [
+          "Suksai CRM does not use tracking, advertising or third-party cookies. We do not embed social media content or analytics tools that install cookies on your device.",
+          "We use the browser's local storage (localStorage) only to remember your visual theme preference (light/dark) and your language. This information stays on your device and is not shared with third parties."
+        ]
+      },
+      {
+        "id": "destinatarios",
+        "heading": "Who we share your data with",
+        "body": [
+          "Data is accessible only to center staff with the appropriate role, in accordance with the platform's role-based access control policies.",
+          "Data is hosted on Supabase, our database and authentication infrastructure provider, which acts as data processor. We do not sell or transfer your data to third parties for commercial purposes."
+        ]
+      },
+      {
+        "id": "conservacion",
+        "heading": "How long we keep your data",
+        "body": [
+          "Data is retained while the account or the relationship with the center remains active, and thereafter for the periods required by applicable tax and commercial regulations. Deactivated accounts and records are preserved through soft-delete mechanisms rather than immediate deletion."
+        ]
+      },
+      {
+        "id": "transferencias-internacionales",
+        "heading": "International transfers",
+        "body": [
+          "Should the infrastructure provider host data outside the European Economic Area, such transfer is carried out in accordance with the safeguards required by applicable data protection regulations, such as standard contractual clauses."
+        ]
+      },
+      {
+        "id": "derechos-usuario",
+        "heading": "Your rights over your data",
+        "body": [
+          "You have the right to access, rectify, erase and port your personal data, as well as to object to its processing and to request the restriction of processing.",
+          "To exercise these rights you can contact the data controller at info@suksaimassage.com. Some data may be retained for administrative, legal or security reasons."
+        ]
+      },
+      {
+        "id": "seguridad",
+        "heading": "Data security",
+        "body": [
+          "Access to the platform requires authentication via Supabase Auth, and access to data is restricted by Row Level Security policies according to each user's role.",
+          "Passwords are managed entirely by Supabase Auth: they are never stored or processed directly by our application. We adopt appropriate technical and organizational measures to protect your data against unauthorized access, alteration, disclosure or destruction."
+        ]
+      },
+      {
+        "id": "menores-edad",
+        "heading": "Minors",
+        "body": [
+          "The platform is intended for professional staff of massage centers and is not aimed at minors. Data of underage clients, where applicable, must be handled with the consent of their legal guardians in accordance with applicable regulations."
+        ]
+      },
+      {
+        "id": "cambios",
+        "heading": "Changes to this policy",
+        "body": [
+          "We reserve the right to modify this Privacy Policy to reflect regulatory changes or changes in our data processing practices. Any change will be published on this page, and the \"Last updated\" date will indicate the current version."
+        ]
+      },
+      {
+        "id": "contacto",
+        "heading": "Contact",
+        "body": [
+          "For any query regarding this Privacy Policy or to exercise your rights, you can write to us at: Suksai Thai Massage · info@suksaimassage.com."
+        ]
+      }
+    ]
+  }
+}

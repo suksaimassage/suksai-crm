@@ -1,0 +1,65 @@
+{
+  "crumbs": "Studio · Sign in",
+  "brandEyebrow": "CRM · Studio",
+  "brandTitle": "Care for those who",
+  "brandTitleEm": "care.",
+  "brandDescription": "Bookings and therapist schedules — all in one place, with the calm your studio deserves.",
+  "titlePrefix": "Welcome",
+  "titleEm": "back.",
+  "title": "Sign in",
+  "lead": "Access your panel to manage bookings and therapists.",
+  "subtitle": "Access your Suksai Thai Massage panel",
+  "brand": "Suksai Thai Massage",
+  "tagline": "Wellness center management",
+  "field": {
+    "email": {
+      "label": "Email",
+      "placeholder": "your@email.com",
+      "required": "Email is required",
+      "invalid": "Invalid email"
+    },
+    "password": {
+      "label": "Password",
+      "required": "Password is required",
+      "minLength": "Password must be at least {{min}} characters",
+      "toggle": {
+        "show": "Show password",
+        "hide": "Hide password"
+      }
+    }
+  },
+  "rememberMe": "Remember me on this device",
+  "submit": "Enter the studio",
+  "submitLoading": "Signing in…",
+  "submitBusy": "Signing in, please wait",
+  "requestAccessText": "No account yet?",
+  "requestAccessLink": "Request studio access →",
+  "legalWithLinks": "By continuing you accept Suksai CRM's <termsLink>Terms<vh> (opens in a new tab)</vh></termsLink> and <privacyLink>Privacy Policy<vh> (opens in a new tab)</vh></privacyLink>.",
+  "footer": {
+    "copyright": "© 2026 Suksai · v1.0.0"
+  },
+  "lang": {
+    "es": "ES",
+    "en": "EN"
+  },
+  "themeToggle": {
+    "toDark": "Switch to dark mode",
+    "toLight": "Switch to light mode"
+  },
+  "error": {
+    "title": "Could not sign in",
+    "invalidCredentials": "Incorrect email or password",
+    "emailNotConfirmed": "Confirm your email before signing in",
+    "rateLimited": "Too many attempts. Try again in a few minutes.",
+    "network": "No connection. Check your internet.",
+    "serverUnavailable": "Service unavailable. Try again shortly.",
+    "noRoles": "Your account has no roles assigned. Contact the administrator.",
+    "profileNotFound": "Your profile was not found. Please contact the administrator.",
+    "accountDeactivated": "Your account has been deactivated. Please contact the administrator.",
+    "unknown": "An unexpected error occurred."
+  },
+  "aria": {
+    "formLabel": "Sign-in form",
+    "requiredSuffix": "required"
+  }
+}

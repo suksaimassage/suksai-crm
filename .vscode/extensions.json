@@ -1,0 +1,30 @@
+{
+  "recommendations": [
+    // ── Formatting & Linting ─────────────────────────────────────────
+    "esbenp.prettier-vscode",           // Prettier formatter
+    "dbaeumer.vscode-eslint",           // ESLint integration
+
+    // ── TypeScript & React ───────────────────────────────────────────
+    "ms-vscode.vscode-typescript-next", // Latest TS language features
+    "dsznajder.es7-react-js-snippets",  // React snippets
+
+    // ── Styled-Components ────────────────────────────────────────────
+    "styled-components.vscode-styled-components", // CSS intellisense in template literals
+
+    // ── Import tooling ───────────────────────────────────────────────
+    "christian-kohler.path-intellisense",  // Path autocomplete for aliases
+    "antfu.goto-alias",                    // Jump to aliased files (@domain, @infra, @app)
+
+    // ── Git ──────────────────────────────────────────────────────────
+    "eamodio.gitlens",                  // Enhanced git blame + history
+
+    // ── DX utilities ─────────────────────────────────────────────────
+    "usernamehw.errorlens",             // Inline error messages
+    "wayou.vscode-todo-highlight",      // Highlight TODO/FIXME
+    "streetsidesoftware.code-spell-checker" // Catch typos in code + comments
+  ],
+  "unwantedRecommendations": [
+    "hookyqr.beautify",                 // Conflicts with Prettier
+    "esbenp.prettier-vscode-next"       // Unstable — use stable release
+  ]
+}

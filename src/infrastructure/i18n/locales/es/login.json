@@ -1,0 +1,65 @@
+{
+  "crumbs": "Estudio · Iniciar sesión",
+  "brandEyebrow": "CRM · Estudio",
+  "brandTitle": "Cuida a quien",
+  "brandTitleEm": "cuida.",
+  "brandDescription": "Reservas y agenda de terapeutas  — en un mismo lugar, con la calma que merece tu estudio.",
+  "titlePrefix": "Bienvenida de",
+  "titleEm": "vuelta.",
+  "title": "Iniciar sesión",
+  "lead": "Accede a tu panel para gestionar reservas y terapeutas.",
+  "subtitle": "Accede a tu panel de Suksai Thai Massage",
+  "brand": "Suksai Thai Massage",
+  "tagline": "Centro de gestión de bienestar",
+  "field": {
+    "email": {
+      "label": "Correo electronico",
+      "placeholder": "tu@correo.es",
+      "required": "El email es obligatorio",
+      "invalid": "Email inválido"
+    },
+    "password": {
+      "label": "Contraseña",
+      "required": "La contraseña es obligatoria",
+      "minLength": "La contraseña debe tener al menos {{min}} caracteres",
+      "toggle": {
+        "show": "Mostrar contraseña",
+        "hide": "Ocultar contraseña"
+      }
+    }
+  },
+  "rememberMe": "Recordarme en este equipo",
+  "submit": "Entrar al estudio",
+  "submitLoading": "Iniciando sesión…",
+  "submitBusy": "Iniciando sesión, espera",
+  "requestAccessText": "¿Aún sin cuenta?",
+  "requestAccessLink": "Solicitar acceso al estudio →",
+  "legalWithLinks": "Al continuar aceptas los <termsLink>Términos<vh> (abre en una pestaña nueva)</vh></termsLink> y la <privacyLink>Política de privacidad<vh> (abre en una pestaña nueva)</vh></privacyLink> de Suksai CRM.",
+  "footer": {
+    "copyright": "© 2026 Suksai · v1.0.0"
+  },
+  "lang": {
+    "es": "ES",
+    "en": "EN"
+  },
+  "themeToggle": {
+    "toDark": "Cambiar a modo oscuro",
+    "toLight": "Cambiar a modo claro"
+  },
+  "error": {
+    "title": "No se pudo iniciar sesión",
+    "invalidCredentials": "Email o contraseña incorrectos",
+    "emailNotConfirmed": "Confirma tu email antes de iniciar sesión",
+    "rateLimited": "Demasiados intentos. Intenta de nuevo en unos minutos.",
+    "network": "Sin conexión. Revisa tu internet.",
+    "serverUnavailable": "Servicio no disponible. Intenta de nuevo en breve.",
+    "noRoles": "Tu cuenta no tiene roles asignados. Contacta al administrador.",
+    "profileNotFound": "No encontramos tu perfil. Contacta al administrador.",
+    "accountDeactivated": "Tu cuenta ha sido desactivada. Contacta al administrador.",
+    "unknown": "Ocurrió un error inesperado."
+  },
+  "aria": {
+    "formLabel": "Formulario de inicio de sesión",
+    "requiredSuffix": "obligatorio"
+  }
+}

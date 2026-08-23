@@ -1,0 +1,25 @@
+# Build output
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Test coverage
+coverage/
+
+# Auto-generated — formatting would break them
+src/routeTree.gen.ts
+src/vite-env.d.ts
+
+# TanStack internal
+.tanstack/
+
+# Lock files — never reformat
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Env files
+.env
+.env.*

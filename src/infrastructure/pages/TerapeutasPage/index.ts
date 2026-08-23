@@ -1,0 +1,1 @@
+export { TerapeutasPage } from './TerapeutasPage';

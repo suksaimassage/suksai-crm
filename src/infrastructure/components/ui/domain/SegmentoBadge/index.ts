@@ -1,0 +1,1 @@
+export { SegmentoBadge } from './SegmentoBadge';

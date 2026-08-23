@@ -1,0 +1,7 @@
+{
+  "unauthorized": {
+    "heading": "Acceso restringido",
+    "message": "No tienes permisos para ver {{routeLabel}}. Contacta con tu administrador si crees que es un error.",
+    "action": "Ir al Dashboard"
+  }
+}

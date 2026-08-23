@@ -1,0 +1,287 @@
+{
+  "page": {
+    "title": "Therapists",
+    "titleAccent": "",
+    "eyebrow": "Team · therapists",
+    "description": "Manage availability, specialities and performance for each therapist.",
+    "loading": "Loading therapists"
+  },
+  "actions": {
+    "add": "New therapist",
+    "export": "Export"
+  },
+  "kpi": {
+    "equipo_activo": "Active team",
+    "en_sala": "In room · now",
+    "horas_semana": "Hours · week",
+    "horas_mes": "Hours · month avg",
+    "valoracion_media": "Average rating",
+    "no_data": "N/A",
+    "equipo_activo_aria": "{{activos}} of {{total}} active therapists",
+    "horas_mes_aria": "{{label}}: {{horas}} hours"
+  },
+  "tabs": {
+    "directorio": "Directory",
+    "horarios": "Schedules",
+    "todos": "All",
+    "en_sala": "In room",
+    "disponibles": "Available",
+    "descanso": "Break",
+    "inactivos": "Inactive"
+  },
+  "toolbar": {
+    "search_placeholder": "Search by name, speciality…",
+    "centro": "Centre",
+    "especialidad": "Speciality",
+    "sort": "Sort",
+    "clear": "Clear filters",
+    "statusFilter": "Filter by status",
+    "sort_nombre_asc": "Name · A–Z",
+    "sort_nombre_desc": "Name · Z–A",
+    "sort_sesiones_desc": "Sessions ↓",
+    "sort_ingresos_desc": "Revenue ↓"
+  },
+  "schedule": {
+    "loading": "Loading schedules",
+    "empty": "No schedules for this centre",
+    "recurrente_readonly": "Recurring hours are managed from the weekly template",
+    "recurrente_label": "Recurring",
+    "recurrente_note": "Recurring schedule · read-only",
+    "error": {
+      "title": "Could not load schedules",
+      "retry": "Retry",
+      "overlap": {
+        "title": "Overlapping schedule",
+        "description": "This window overlaps another shift for the same therapist that day. It was not saved."
+      }
+    },
+    "toast": {
+      "created": "Schedule created",
+      "updated": "Schedule updated",
+      "deleted": "Schedule removed"
+    }
+  },
+  "card": {
+    "desde": "Since {{year}}",
+    "horas_semana": "{{hours}} h this week",
+    "proxima": "Next · {{time}}",
+    "sin_proxima": "No upcoming appointments",
+    "sesiones_label": "Sessions · wk",
+    "servicio_label": "Top service",
+    "valoracion_label": "Rating",
+    "ingresos_label": "Generated · wk",
+    "add_label": "Add a new pair of hands",
+    "add_description": "Register a new therapist and set up their schedule, specialities and commission.",
+    "editAriaLabel": "Edit therapist {{nombre}}",
+    "menu": {
+      "ariaLabel": "Actions for {{nombre}}",
+      "editar": "Edit",
+      "horario": "Work schedule"
+    }
+  },
+  "status": {
+    "en_sala": "In session",
+    "disponible": "Available",
+    "descanso": "Break",
+    "inactivo": "Inactive",
+    "ausente": "Absent"
+  },
+  "days": {
+    "1": "M",
+    "2": "T",
+    "3": "W",
+    "4": "T",
+    "5": "F",
+    "6": "S",
+    "7": "S"
+  },
+  "empty": {
+    "title": "No therapists",
+    "description": "There are no therapists assigned to this centre yet.",
+    "action": "Add first therapist"
+  },
+  "empty_filtered": {
+    "title": "No results",
+    "description": "No therapist matches the applied filters.",
+    "action": "Clear filters"
+  },
+  "error": {
+    "title": "Could not load the team",
+    "description": "There was a problem fetching the data.",
+    "retry": "Retry"
+  },
+  "modal": {
+    "create": {
+      "title": "New therapist"
+    },
+    "edit": {
+      "title": "Edit therapist"
+    },
+    "submit": {
+      "create": "Create therapist",
+      "edit": "Save changes"
+    },
+    "cancel": "Cancel",
+    "delete": {
+      "label": "Deactivate therapist",
+      "entityLabel": "this therapist",
+      "confirmTitle": "Deactivate therapist",
+      "confirmMessage": "Deactivate {{nombre}}? You can reactivate them later.",
+      "confirmCta": "Deactivate"
+    },
+    "reactivate": {
+      "label": "Reactivate therapist"
+    }
+  },
+  "form": {
+    "nombre": {
+      "label": "First name",
+      "placeholder": "Therapist first name"
+    },
+    "apellidos": {
+      "label": "Last name",
+      "placeholder": "Last name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "email@example.com",
+      "readonly_hint": "Read-only · the email is linked to the therapist's account"
+    },
+    "telefono": {
+      "label": "Phone",
+      "placeholder": "+34 600 000 000"
+    },
+    "centros": {
+      "label": "Assigned centres"
+    },
+    "principal": {
+      "label": "Primary centre",
+      "help": "Choose which of the selected centres is the primary one.",
+      "radioAriaLabel": "Set {{centro}} as primary centre",
+      "error_not_selected": "The primary centre must be one of the assigned centres."
+    },
+    "rol": {
+      "label": "Role",
+      "placeholder": "Select a role",
+      "error_required": "Please select a role",
+      "error_load": "Could not load roles"
+    }
+  },
+  "roles": {
+    "masajista": "Therapist",
+    "recepcionista": "Receptionist"
+  },
+  "guard": {
+    "description": "This therapist has {{count}} active appointment(s) in the next 30 days.",
+    "check_error": "Could not verify the therapist's active appointments"
+  },
+  "toast": {
+    "created": "Therapist created successfully",
+    "updated": "Therapist updated",
+    "deleted": "Therapist deactivated",
+    "reactivated": "Therapist reactivated"
+  },
+  "workSchedule": {
+    "calendarViewAriaLabel": "Calendar view",
+    "viewDay": "Day",
+    "viewWeek": "Week",
+    "viewMonth": "Month",
+    "monthlyScheduleAriaLabel": "Monthly schedule",
+    "weeklyScheduleAriaLabel": "Weekly schedule",
+    "dailyScheduleAriaLabel": "Daily schedule",
+    "resizeShiftAriaLabel": "Resize shift",
+    "closePanelAriaLabel": "Close panel",
+    "editShiftAriaLabel": "Edit shift",
+    "closeAriaLabel": "Close",
+    "addShiftTitle": "Add shift",
+    "addShiftAriaLabel": "Add shift",
+    "terapeutaLabel": "Therapist",
+    "tipoHorarioLabel": "Shift type",
+    "tipoHorarioAriaLabel": "Shift type",
+    "tipoEspecifico": "Specific date",
+    "tipoRecurrente": "Recurring (weekly)",
+    "fechaLabel": "Date",
+    "diaSemanaLabel": "Day of week",
+    "horaInicioLabel": "Start time",
+    "horaFinLabel": "End time",
+    "cancelar": "Cancel",
+    "añadir": "Add",
+    "prevDay": "Previous day",
+    "prevWeek": "Previous week",
+    "prevMonth": "Previous month",
+    "nextDay": "Next day",
+    "nextWeek": "Next week",
+    "nextMonth": "Next month",
+    "goToTodayAriaLabel": "Go to today",
+    "today": "Today",
+    "employeesColumn": "Employees",
+    "noEmployees": "No employees to display",
+    "addShiftForAriaLabel": "Add shift for {{name}}",
+    "addShiftShort": "Add shift",
+    "monthDayCellAriaLabel": "{{date}} — {{count}} employee(s)",
+    "weekDayToDayViewAriaLabel": "{{date}} — switch to day view",
+    "weekdays": {
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday",
+      "7": "Sunday"
+    },
+    "detailPanel": {
+      "shiftAriaLabel": "Shift: {{name}}",
+      "shiftDetailsAriaLabel": "Shift details",
+      "shiftFallback": "Shift",
+      "employee": "Employee",
+      "time": "Time",
+      "duration": "Duration",
+      "notes": "Notes"
+    },
+    "editModal": {
+      "title": "Edit shift",
+      "employee": "Employee",
+      "date": "Date",
+      "start": "Start",
+      "end": "End",
+      "time": "Time",
+      "label": "Label",
+      "labelPlaceholder": "e.g. Morning shift",
+      "color": "Color",
+      "colorPrimary": "Primary",
+      "colorSecondary": "Secondary",
+      "colorSuccess": "Success",
+      "colorWarning": "Warning",
+      "colorError": "Error",
+      "notes": "Notes",
+      "notesPlaceholder": "Add a note…",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "save": "Save changes"
+    },
+    "confirmReschedule": {
+      "titleTime": "Move this shift?",
+      "titleEmployee": "Reassign this shift?",
+      "titleBoth": "Reassign and move this shift?",
+      "contextDay": "{{therapist}} · {{fecha}}",
+      "contextDayTime": "{{fecha}} · {{horaInicio}}–{{horaFin}}",
+      "contextDateOnly": "{{fecha}}",
+      "fromLabel": "From",
+      "toLabel": "To",
+      "timeValue": "{{horaInicio}}–{{horaFin}}",
+      "employeeAndTimeValue": "{{therapist}} · {{horaInicio}}–{{horaFin}}",
+      "reassignBadge": "Reassignment",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "genericError": "Couldn't save the change. Please try again."
+    },
+    "a11y": {
+      "rescheduleProposedTime": "Move shift to {{horaInicio}}–{{horaFin}}. Confirmation pending.",
+      "rescheduleProposedEmployee": "Reassign shift to {{therapist}}. Confirmation pending.",
+      "rescheduleProposedBoth": "Reassign to {{therapist}} and move to {{horaInicio}}–{{horaFin}}. Confirmation pending.",
+      "rescheduledAnnounce": "Shift updated.",
+      "rescheduleCancelledAnnounce": "Change cancelled. The shift is unchanged.",
+      "readOnlyHint": "(recurring, not editable)"
+    }
+  }
+}

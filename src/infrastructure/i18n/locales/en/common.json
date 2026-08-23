@@ -1,0 +1,90 @@
+{
+  "loading": "Loading…",
+  "retry": "Retry",
+  "close": "Close",
+  "modal": {
+    "cerrar": "Close modal"
+  },
+  "errors": {
+    "offlineTitle": "No connection",
+    "offlineBody": "Check your internet connection."
+  },
+  "themeToggle": {
+    "toDark": "Switch to dark mode",
+    "toLight": "Switch to light mode"
+  },
+  "lang": {
+    "es": "ES",
+    "en": "EN"
+  },
+  "comingSoon": "Coming soon",
+  "comingSoonSub": "Available soon",
+  "error": {
+    "notFound": {
+      "ariaLabel": "Page not found",
+      "heading": "Page not found",
+      "description": "The route you are looking for does not exist.",
+      "backHome": "Back to home"
+    }
+  },
+  "datePicker": {
+    "hourAriaLabel": "Hour",
+    "minuteAriaLabel": "Minutes",
+    "clearAriaLabel": "Clear",
+    "selectDateAriaLabel": "Select date",
+    "selectStartDateAriaLabel": "Select start date",
+    "selectEndDateAriaLabel": "Select end date",
+    "prevMonthAriaLabel": "Previous month",
+    "nextMonthAriaLabel": "Next month",
+    "rangeStartLabel": "Start",
+    "rangeEndLabel": "End",
+    "timeStartLabel": "Start time",
+    "timeEndLabel": "End time",
+    "rangeStartPlaceholder": "Start date",
+    "rangeEndPlaceholder": "End date",
+    "dateTimeStartPlaceholder": "Start",
+    "dateTimeEndPlaceholder": "End"
+  },
+  "table": {
+    "columnsVisibleAriaLabel": "Visible columns",
+    "columnVisibilityAriaLabel": "Column visibility",
+    "prevPageAriaLabel": "Previous",
+    "nextPageAriaLabel": "Next",
+    "selectAllAriaLabel": "Select all",
+    "noResults": "No results",
+    "paginationRange": "{{start}}–{{end}} of {{total}}",
+    "resetFilters": "Reset filters",
+    "pageSizeLabel": "Rows per page"
+  },
+  "toast": {
+    "closeAriaLabel": "Close notification"
+  },
+  "select": {
+    "clearAriaLabel": "Clear selection",
+    "searchAriaLabel": "Search option",
+    "searchPlaceholder": "Search...",
+    "noResults": "No results",
+    "optionsAriaLabel": "Options"
+  },
+  "form": {
+    "clearFieldAriaLabel": "Clear field",
+    "searchResultsAriaLabel": "Search results",
+    "clearSearchAriaLabel": "Clear search"
+  },
+  "dropdown": {
+    "menuAriaLabel": "Options menu"
+  },
+  "navbar": {
+    "navAriaLabel": "Main navigation",
+    "menuAriaLabel": "Navigation menu"
+  },
+  "popover": {
+    "closeAriaLabel": "Close popover"
+  },
+  "image": {
+    "closeLightboxAriaLabel": "Close fullscreen view"
+  },
+  "calendarVolume": {
+    "timeAriaLabel": "Time"
+  }
+}

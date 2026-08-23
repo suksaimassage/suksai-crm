@@ -1,0 +1,448 @@
+{
+  "title": "Panel de control",
+  "welcome": {
+    "heading": "Bienvenido",
+    "footnote": "Mientras tanto, respira."
+  },
+  "topbar": {
+    "brand": "Suksai Thai Massage",
+    "signOut": "Cerrar sesión",
+    "signOutLoading": "Cerrando sesión…",
+    "navAriaLabel": "Navegación principal",
+    "breadcrumbAriaLabel": "Ubicación actual",
+    "homeAriaLabel": "Inicio",
+    "studioLabel": "Estudio",
+    "langGroupAriaLabel": "Idioma",
+    "langEsAriaLabel": "Español",
+    "langEnAriaLabel": "Inglés",
+    "accountAriaLabel": "Mi cuenta",
+    "openMenuAriaLabel": "Abrir menú de navegación"
+  },
+  "breadcrumbs": {
+    "overview": "Dashboard",
+    "agenda": "Agenda",
+    "clientes": "Clientes",
+    "rituales": "Rituales",
+    "terapeutas": "Terapeutas",
+    "caja": "Caja",
+    "informes": "Informes",
+    "ajustes": "Ajustes",
+    "centros": "Centros & Salas"
+  },
+  "userRole": {
+    "suksai": "Suksai",
+    "recepcion": "Recepción",
+    "terapeuta": "Terapeuta"
+  },
+  "sidebar": {
+    "centroLabel": "Centro:",
+    "loadingCentro": "Cargando centro…",
+    "noCentro": "Sin centro asignado",
+    "searchPlaceholder": "Buscar…",
+    "searchAriaLabel": "Buscar en la navegación",
+    "searchClearAriaLabel": "Limpiar búsqueda",
+    "subNavAriaLabel": "Sub-navegación",
+    "navAriaLabel": "Navegación lateral",
+    "collapseLabel": "Colapsar sidebar",
+    "expandLabel": "Expandir sidebar",
+    "collapseTitle": "Colapsar",
+    "expandTitle": "Expandir",
+    "noResults": "Sin resultados para \"{{query}}\"",
+    "mobileOpenAriaLabel": "Abrir menú de navegación"
+  },
+  "session": {
+    "expired": "Tu sesión expiró",
+    "endedOtherTab": "Tu sesión ha finalizado"
+  },
+  "footer": {
+    "copyright": "© 2026 Suksai Thai Massage",
+    "termsLink": "Términos de Uso",
+    "privacyLink": "Política de Privacidad"
+  },
+  "overview": {
+    "welcomeHeading": "Bienvenida, {{nombre}}",
+    "welcomeSubtitle": "{{dayName}}, {{date}}",
+    "tagline": "Que tu centro fluya con calma.",
+    "greetingWord": "Bienvenida,",
+    "goodMorning": "BUEN DÍA",
+    "weatherMock": "☀ 21° · CIELO DESPEJADO",
+    "studioPulse": "Pulso del estudio"
+  },
+  "kpi": {
+    "reservasHoy": "Reservas hoy",
+    "ingresosSemana": "Ingresos semana",
+    "ocupacionSemana": "Ocupación semana",
+    "reservasCompletadasMes": "Citas completadas (mes)",
+    "satisfaccionNPS": "Satisfacción NPS",
+    "vsPeriodoPrevio": "vs semana anterior",
+    "vsAyer": "vs ayer",
+    "vsMesAnterior": "vs mes anterior",
+    "vsMismoDiaSemanaPrevia": "vs mismo día semana previa",
+    "gridAriaLabel": "Indicadores del estudio",
+    "unavailable": "N/D"
+  },
+  "clients": {
+    "sectionTitle": "Clientes relevantes",
+    "viewAll": "Ver todos",
+    "ltv": "Valor total",
+    "nextAppointment": "Próxima cita",
+    "noNextAppointment": "Sin citas programadas",
+    "empty": "No hay clientes destacados",
+    "emptyTitle": "Sin clientes destacados",
+    "emptyDescription": "Los datos de clientes aparecerán aquí una vez que se registren citas.",
+    "errorTitle": "Error al cargar clientes",
+    "errorDescription": "Ha ocurrido un error al cargar los datos de clientes.",
+    "visits_one": "{{count}} visita",
+    "visits_other": "{{count}} visitas",
+    "durationFallback": "0 min",
+    "tag": {
+      "vip": "VIP",
+      "bono_activo": "Bono activo",
+      "frecuente": "Frecuente",
+      "nuevo": "Nuevo"
+    },
+    "lastAppt": {
+      "noCitas": "Sin citas programadas",
+      "hoy": "Hoy {{time}}",
+      "ayer": "Ayer {{time}}",
+      "haceDos": "Hace dos días",
+      "haceUnaSemana": "Hace una semana",
+      "haceNMes_one": "Hace un mes",
+      "haceNMes_other": "Hace {{count}} meses",
+      "haceUnAnio": "Hace un año",
+      "ariaLabel": "Última cita"
+    }
+  },
+  "appointments": {
+    "sectionTitle": "Próximas citas",
+    "viewAgenda": "Ver agenda",
+    "empty": "No hay citas programadas",
+    "emptyTitle": "Sin citas hoy",
+    "emptyDescription": "No hay citas programadas para hoy.",
+    "errorTitle": "Error al cargar citas",
+    "errorDescription": "Ha ocurrido un error al cargar las citas.",
+    "status": {
+      "pendiente": "Pendiente",
+      "confirmada": "Confirmada",
+      "en_curso": "En curso",
+      "completada": "Completada",
+      "cancelada": "Cancelada",
+      "no_presentado": "No se presentó",
+      "sin_asignar": "Sin asignar"
+    }
+  },
+  "heatmap": {
+    "sectionTitle": "Densidad de citas",
+    "ariaLabel": "Mapa de calor de citas por día y hora",
+    "days": {
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mié",
+      "thu": "Jue",
+      "fri": "Vie",
+      "sat": "Sáb",
+      "sun": "Dom"
+    },
+    "daysFull": {
+      "mon": "Lunes",
+      "tue": "Martes",
+      "wed": "Miércoles",
+      "thu": "Jueves",
+      "fri": "Viernes",
+      "sat": "Sábado",
+      "sun": "Domingo"
+    }
+  },
+  "centros": {
+    "pageTitle": "Centros & Salas",
+    "pageSubtitle": "Gestión de espacios y disponibilidad en tiempo real",
+    "pageEyebrow": "RED SUKSAI · {{centros}} ESTUDIOS · {{salas}} SALAS",
+    "pageTitleBase": "Centros &",
+    "pageTitleAccent": "salas.",
+    "pageDescription": "Gestión de espacios y disponibilidad en tiempo real",
+    "errorTitle": "Error al cargar centros",
+    "errorDescription": "No se han podido cargar los centros. Inténtalo de nuevo.",
+    "emptyTitle": "Sin centros registrados",
+    "emptyDescription": "Aún no hay centros en el sistema. Contacta con el administrador.",
+    "kpi": {
+      "centrosActivos": "Centros activos",
+      "salasTotales": "Salas totales",
+      "ocupacionHoy": "Ocupación hoy",
+      "enMantenimiento": "En mantenimiento"
+    },
+    "tabs": {
+      "ariaLabel": "Filtrar centros",
+      "todos": "Todos",
+      "activos": "Activos",
+      "mantenimiento": "Mantenimiento",
+      "comingSoon": "Próximamente",
+      "abiertos": "Abiertos hoy",
+      "suitePareja": "Con suite pareja",
+      "incidencias": "Con incidencias"
+    },
+    "toolbar": {
+      "filterCiudad": "Ciudad",
+      "filterEquipamiento": "Equipamiento"
+    },
+    "list": {
+      "ariaLabel": "Lista de centros",
+      "searchPlaceholder": "Buscar centro…",
+      "loading": "Cargando centros…",
+      "empty": "Sin centros",
+      "noResults": "Sin resultados",
+      "statsSummary": "{{salas}} salas · {{staff}} personas",
+      "inactiveBadge": "Inactivo",
+      "inactiveAriaLabel": "{{nombre}} (inactivo)",
+      "headerTitle": "Estudios",
+      "headerTitleAccent": "de la red",
+      "centrosCount": "{{count}} centros",
+      "addCentro": "Añadir centro",
+      "statsSalas": "{{count}} salas",
+      "statsStaff": "{{count}} personal",
+      "occupancyToday": "HOY",
+      "incidentWarningAriaLabel": "Este centro tiene incidencias"
+    },
+    "detail": {
+      "selectPrompt": "Selecciona un centro para ver el detalle",
+      "telefono": "Teléfono",
+      "email": "Email",
+      "desde": "Desde",
+      "salasTitle": "Salas",
+      "editButtonAriaLabel": "Editar este centro",
+      "namePrefix": "Estudio",
+      "eyebrow": "SEDE FUNDACIONAL · DESDE {{year}}",
+      "schedule": "Lun-Sáb · 10:00–21:30",
+      "openNow": "ABIERTO AHORA",
+      "responsable": "Responsable:",
+      "kpi": {
+        "salas": "Salas",
+        "ocupacion": "Ocupación",
+        "sesionesHoy": "Sesiones hoy",
+        "ingresoHoy": "Ingreso hoy"
+      }
+    },
+    "sala": {
+      "loading": "Cargando salas…",
+      "emptyTitle": "Sin salas",
+      "emptyDescription": "Este centro aún no tiene salas registradas.",
+      "errorTitle": "Error al cargar salas",
+      "errorDescription": "No se han podido cargar las salas.",
+      "addLabel": "Añadir sala",
+      "addAriaLabel": "Añadir nueva sala",
+      "slotBarAriaLabel": "{{used}} de {{total}} slots ocupados",
+      "imagePlaceholderLabel": "F 1600 × 1080",
+      "sectionTitlePrefix": "Salas del",
+      "sectionTitleAccent": "estudio",
+      "sectionSubtitle": "Disponibilidad en tiempo real · franjas de 30 min",
+      "todayLabel": "HOY",
+      "slotFraction": "{{used}} / {{total}} franjas",
+      "viewToggle": {
+        "grid": "Cuadrícula",
+        "list": "Lista",
+        "schedule": "Horario",
+        "scheduleComingSoon": "Próximamente",
+        "ariaLabel": "Cambiar vista de salas"
+      },
+      "list": {
+        "colNombre": "Sala",
+        "colEstado": "Estado",
+        "colCapacidad": "Capacidad",
+        "colSlots": "Slots hoy",
+        "emptyText": "No hay salas en este centro"
+      },
+      "status": {
+        "enSesion": "En sesión",
+        "disponible": "Disponible",
+        "mantenimiento": "Mantenimiento"
+      },
+      "menu": {
+        "ariaLabel": "Más opciones para {{nombre}}",
+        "editar": "Editar",
+        "deshabilitar": "Deshabilitar",
+        "habilitar": "Habilitar",
+        "eliminar": "Eliminar"
+      },
+      "toast": {
+        "disabled": "Sala deshabilitada",
+        "enabled": "Sala habilitada",
+        "error": "No se pudo actualizar la sala"
+      },
+      "deleteDialog": {
+        "title": "Eliminar sala",
+        "message": "¿Seguro que quieres eliminar la sala «{{nombre}}»? Esta acción no se puede deshacer.",
+        "confirm": "Eliminar",
+        "cancel": "Cancelar"
+      }
+    },
+    "actions": {
+      "nuevo": "Nuevo centro",
+      "editar": "Editar centro"
+    },
+    "modal": {
+      "create": {
+        "title": "Nuevo centro"
+      },
+      "edit": {
+        "title": "Editar centro"
+      },
+      "submit": {
+        "create": "Crear centro",
+        "edit": "Guardar cambios"
+      },
+      "cancel": "Cancelar",
+      "close": {
+        "ariaLabel": "Cerrar modal"
+      },
+      "delete": {
+        "label": "Eliminar centro",
+        "entityLabel": "este centro"
+      },
+      "deleteDialog": {
+        "title": "Eliminar centro",
+        "message": "¿Seguro que quieres eliminar este centro? Esta acción no se puede deshacer.",
+        "confirm": "Eliminar",
+        "cancel": "Cancelar"
+      }
+    },
+    "form": {
+      "nombre": {
+        "label": "Nombre del centro",
+        "placeholder": "Ej: Suksai Thai Ibiza"
+      },
+      "direccion": {
+        "label": "Dirección",
+        "placeholder": "Calle, número, piso…"
+      },
+      "ciudad": {
+        "label": "Ciudad",
+        "placeholder": "Ej: Barcelona"
+      },
+      "codigoPostal": {
+        "label": "Código postal",
+        "placeholder": "08001"
+      },
+      "telefono": {
+        "label": "Teléfono",
+        "placeholder": "600 000 000"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "centro@ejemplo.com"
+      },
+      "activo": {
+        "label": "Centro activo",
+        "helperText": "Desactiva el centro sin eliminarlo"
+      }
+    },
+    "toast": {
+      "created": "Centro creado con éxito",
+      "updated": "Centro actualizado",
+      "deleted": "Centro eliminado",
+      "deactivated": "Centro desactivado",
+      "reactivated": "Centro reactivado"
+    },
+    "validation": {
+      "nombre": {
+        "required": "El nombre es obligatorio"
+      },
+      "ciudad": {
+        "required": "La ciudad es obligatoria"
+      },
+      "email": {
+        "pattern": "Introduce un correo electrónico válido"
+      }
+    }
+  },
+  "calendarVolume": {
+    "sectionTitle": "Densidad de citas",
+    "title": "Densidad de citas",
+    "errorTitle": "Error al cargar la densidad",
+    "errorDescription": "No se pudieron cargar los datos de densidad.",
+    "legendMin": "Menos",
+    "legendMax": "Más",
+    "ariaLabel": "Mapa de calor de citas por día y hora",
+    "viewDay": "Día",
+    "viewWeek": "Semana",
+    "viewToggleLabel": "Vista del calendario",
+    "prevDay": "Día anterior",
+    "prevWeek": "Semana anterior",
+    "nextDay": "Día siguiente",
+    "nextWeek": "Semana siguiente",
+    "currentPeriod": "Período actual: {{dateLabel}}",
+    "insightsLabel": "Información",
+    "busyTimesTitle": "Horas pico",
+    "peakSlotsLabel": "Franjas horarias con más citas",
+    "appointmentCount_one": "{{count}} cita",
+    "appointmentCount_other": "{{count}} citas",
+    "appointmentCountShort_one": "{{count}} cita",
+    "appointmentCountShort_other": "{{count}} citas",
+    "noData": "Sin datos disponibles",
+    "colorKeyTitle": "Leyenda de color",
+    "legendAriaLabel": "Gradiente de color: 0 a {{maxValue}} citas",
+    "peakTimesLabel": "Horas pico",
+    "moreOptions": "Más opciones",
+    "cellAriaLabel": "{{dayLabel}} {{hourLabel}}: {{count}} citas"
+  },
+  "salas": {
+    "modal": {
+      "create": {
+        "title": "Nueva sala"
+      },
+      "edit": {
+        "title": "Editar sala"
+      },
+      "submit": {
+        "create": "Crear sala",
+        "edit": "Guardar cambios"
+      },
+      "cancel": "Cancelar",
+      "close": {
+        "ariaLabel": "Cerrar modal"
+      },
+      "delete": {
+        "label": "Eliminar sala",
+        "entityLabel": "esta sala"
+      }
+    },
+    "form": {
+      "centro": {
+        "label": "Centro",
+        "ariaLabel": "Centro asignado a esta sala"
+      },
+      "nombre": {
+        "label": "Nombre de la sala",
+        "placeholder": "Ej: Sala Lotus"
+      },
+      "capacidad": {
+        "label": "Capacidad",
+        "placeholder": "1"
+      },
+      "descripcion": {
+        "label": "Descripción",
+        "placeholder": "Descripción opcional de la sala…"
+      },
+      "activa": {
+        "label": "Sala activa",
+        "helperText": "Desactiva la sala sin eliminarla"
+      }
+    },
+    "guard": {
+      "description": "Esta sala tiene {{count}} cita(s) activa(s) en los próximos 30 días."
+    },
+    "toast": {
+      "created": "Sala creada con éxito",
+      "updated": "Sala actualizada",
+      "deleted": "Sala eliminada",
+      "deactivated": "Sala desactivada",
+      "errorDelete": "No se pudo eliminar la sala"
+    },
+    "validation": {
+      "nombre": {
+        "required": "El nombre es obligatorio"
+      },
+      "capacidad": {
+        "min": "La capacidad mínima es 1"
+      }
+    }
+  }
+}

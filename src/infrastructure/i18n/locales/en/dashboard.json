@@ -1,0 +1,448 @@
+{
+  "title": "Dashboard",
+  "welcome": {
+    "heading": "Welcome",
+    "footnote": "In the meantime, breathe."
+  },
+  "topbar": {
+    "brand": "Suksai Thai Massage",
+    "signOut": "Sign out",
+    "signOutLoading": "Signing out…",
+    "navAriaLabel": "Main navigation",
+    "breadcrumbAriaLabel": "Current location",
+    "homeAriaLabel": "Home",
+    "studioLabel": "Studio",
+    "langGroupAriaLabel": "Language",
+    "langEsAriaLabel": "Spanish",
+    "langEnAriaLabel": "English",
+    "accountAriaLabel": "My account",
+    "openMenuAriaLabel": "Open navigation menu"
+  },
+  "breadcrumbs": {
+    "overview": "Dashboard",
+    "agenda": "Agenda",
+    "clientes": "Clients",
+    "rituales": "Rituals",
+    "terapeutas": "Therapists",
+    "caja": "Cash register",
+    "informes": "Reports",
+    "ajustes": "Settings",
+    "centros": "Centres & Rooms"
+  },
+  "userRole": {
+    "suksai": "Suksai",
+    "recepcion": "Reception",
+    "terapeuta": "Therapist"
+  },
+  "sidebar": {
+    "centroLabel": "Centre:",
+    "loadingCentro": "Loading center…",
+    "noCentro": "No center assigned",
+    "searchPlaceholder": "Search…",
+    "searchAriaLabel": "Search navigation",
+    "searchClearAriaLabel": "Clear search",
+    "subNavAriaLabel": "Sub-navigation",
+    "navAriaLabel": "Side navigation",
+    "collapseLabel": "Collapse sidebar",
+    "expandLabel": "Expand sidebar",
+    "collapseTitle": "Collapse",
+    "expandTitle": "Expand",
+    "noResults": "No results for \"{{query}}\"",
+    "mobileOpenAriaLabel": "Open navigation menu"
+  },
+  "session": {
+    "expired": "Your session has expired",
+    "endedOtherTab": "Your session has ended"
+  },
+  "footer": {
+    "copyright": "© 2026 Suksai Thai Massage",
+    "termsLink": "Terms of Use",
+    "privacyLink": "Privacy Policy"
+  },
+  "overview": {
+    "welcomeHeading": "Welcome, {{nombre}}",
+    "welcomeSubtitle": "{{dayName}}, {{date}}",
+    "tagline": "Let your center flow with calm.",
+    "greetingWord": "Welcome,",
+    "goodMorning": "GOOD MORNING",
+    "weatherMock": "☀ 21° · CLEAR SKY",
+    "studioPulse": "Studio pulse"
+  },
+  "kpi": {
+    "reservasHoy": "Bookings today",
+    "ingresosSemana": "Weekly revenue",
+    "ocupacionSemana": "Weekly occupancy",
+    "reservasCompletadasMes": "Completed appointments (month)",
+    "satisfaccionNPS": "NPS satisfaction",
+    "vsPeriodoPrevio": "vs previous week",
+    "vsAyer": "vs yesterday",
+    "vsMesAnterior": "vs last month",
+    "vsMismoDiaSemanaPrevia": "vs same day last week",
+    "gridAriaLabel": "Studio indicators",
+    "unavailable": "N/A"
+  },
+  "clients": {
+    "sectionTitle": "Relevant clients",
+    "viewAll": "View all",
+    "ltv": "Lifetime value",
+    "nextAppointment": "Next appointment",
+    "noNextAppointment": "No appointments scheduled",
+    "empty": "No featured clients",
+    "emptyTitle": "No featured clients",
+    "emptyDescription": "Client data will appear here once appointments are recorded.",
+    "errorTitle": "Error loading clients",
+    "errorDescription": "An error occurred while loading client data.",
+    "visits_one": "{{count}} visit",
+    "visits_other": "{{count}} visits",
+    "durationFallback": "0 min",
+    "tag": {
+      "vip": "VIP",
+      "bono_activo": "Active bundle",
+      "frecuente": "Regular",
+      "nuevo": "New"
+    },
+    "lastAppt": {
+      "noCitas": "No appointments scheduled",
+      "hoy": "Today {{time}}",
+      "ayer": "Yesterday {{time}}",
+      "haceDos": "2 days ago",
+      "haceUnaSemana": "A week ago",
+      "haceNMes_one": "A month ago",
+      "haceNMes_other": "{{count}} months ago",
+      "haceUnAnio": "A year ago",
+      "ariaLabel": "Last appointment"
+    }
+  },
+  "appointments": {
+    "sectionTitle": "Upcoming appointments",
+    "viewAgenda": "View agenda",
+    "empty": "No appointments scheduled",
+    "emptyTitle": "No appointments today",
+    "emptyDescription": "No appointments are scheduled for today.",
+    "errorTitle": "Error loading appointments",
+    "errorDescription": "An error occurred while loading appointments.",
+    "status": {
+      "pendiente": "Pending",
+      "confirmada": "Confirmed",
+      "en_curso": "In progress",
+      "completada": "Completed",
+      "cancelada": "Cancelled",
+      "no_presentado": "No-show",
+      "sin_asignar": "Unassigned"
+    }
+  },
+  "heatmap": {
+    "sectionTitle": "Appointment density",
+    "ariaLabel": "Heatmap of appointments by day and time",
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "daysFull": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    }
+  },
+  "centros": {
+    "pageTitle": "Centers & Rooms",
+    "pageSubtitle": "Space management and real-time availability",
+    "pageEyebrow": "SUKSAI NETWORK · {{centros}} STUDIOS · {{salas}} ROOMS",
+    "pageTitleBase": "Centers &",
+    "pageTitleAccent": "rooms.",
+    "pageDescription": "Space management and real-time availability",
+    "errorTitle": "Error loading centers",
+    "errorDescription": "Could not load centers. Please try again.",
+    "emptyTitle": "No centers registered",
+    "emptyDescription": "There are no centers in the system yet. Contact your administrator.",
+    "kpi": {
+      "centrosActivos": "Active centers",
+      "salasTotales": "Total rooms",
+      "ocupacionHoy": "Occupancy today",
+      "enMantenimiento": "In maintenance"
+    },
+    "tabs": {
+      "ariaLabel": "Filter centers",
+      "todos": "All",
+      "activos": "Active",
+      "mantenimiento": "Maintenance",
+      "comingSoon": "Coming soon",
+      "abiertos": "Open today",
+      "suitePareja": "Couples suite",
+      "incidencias": "With incidents"
+    },
+    "toolbar": {
+      "filterCiudad": "City",
+      "filterEquipamiento": "Equipment"
+    },
+    "list": {
+      "ariaLabel": "Centers list",
+      "searchPlaceholder": "Search center…",
+      "loading": "Loading centers…",
+      "empty": "No centers",
+      "noResults": "No results",
+      "statsSummary": "{{salas}} rooms · {{staff}} staff",
+      "inactiveBadge": "Inactive",
+      "inactiveAriaLabel": "{{nombre}} (inactive)",
+      "headerTitle": "Studios",
+      "headerTitleAccent": "network",
+      "centrosCount": "{{count}} centers",
+      "addCentro": "Add center",
+      "statsSalas": "{{count}} rooms",
+      "statsStaff": "{{count}} staff",
+      "occupancyToday": "TODAY",
+      "incidentWarningAriaLabel": "This center has incidents"
+    },
+    "detail": {
+      "selectPrompt": "Select a center to view details",
+      "telefono": "Phone",
+      "email": "Email",
+      "desde": "Since",
+      "salasTitle": "Rooms",
+      "editButtonAriaLabel": "Edit this centre",
+      "namePrefix": "Studio",
+      "eyebrow": "FOUNDING STUDIO · SINCE {{year}}",
+      "schedule": "Mon-Sat · 10:00–21:30",
+      "openNow": "OPEN NOW",
+      "responsable": "Manager:",
+      "kpi": {
+        "salas": "Rooms",
+        "ocupacion": "Occupancy",
+        "sesionesHoy": "Sessions today",
+        "ingresoHoy": "Revenue today"
+      }
+    },
+    "sala": {
+      "loading": "Loading rooms…",
+      "emptyTitle": "No rooms",
+      "emptyDescription": "This center has no rooms registered yet.",
+      "errorTitle": "Error loading rooms",
+      "errorDescription": "Could not load rooms.",
+      "addLabel": "Add room",
+      "addAriaLabel": "Add new room",
+      "slotBarAriaLabel": "{{used}} of {{total}} slots occupied",
+      "imagePlaceholderLabel": "I 1600 × 1080",
+      "sectionTitlePrefix": "Rooms of the",
+      "sectionTitleAccent": "studio",
+      "sectionSubtitle": "Real-time availability · 30-min slots",
+      "todayLabel": "TODAY",
+      "slotFraction": "{{used}} / {{total}} slots",
+      "viewToggle": {
+        "grid": "Grid",
+        "list": "List",
+        "schedule": "Schedule",
+        "scheduleComingSoon": "Coming soon",
+        "ariaLabel": "Change room view"
+      },
+      "list": {
+        "colNombre": "Room",
+        "colEstado": "Status",
+        "colCapacidad": "Capacity",
+        "colSlots": "Slots today",
+        "emptyText": "No rooms in this center"
+      },
+      "status": {
+        "enSesion": "In session",
+        "disponible": "Available",
+        "mantenimiento": "Maintenance"
+      },
+      "menu": {
+        "ariaLabel": "More options for {{nombre}}",
+        "editar": "Edit",
+        "deshabilitar": "Disable",
+        "habilitar": "Enable",
+        "eliminar": "Delete"
+      },
+      "toast": {
+        "disabled": "Room disabled",
+        "enabled": "Room enabled",
+        "error": "Could not update the room"
+      },
+      "deleteDialog": {
+        "title": "Delete room",
+        "message": "Are you sure you want to delete the room “{{nombre}}”? This action cannot be undone.",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "actions": {
+      "nuevo": "New centre",
+      "editar": "Edit centre"
+    },
+    "modal": {
+      "create": {
+        "title": "New centre"
+      },
+      "edit": {
+        "title": "Edit centre"
+      },
+      "submit": {
+        "create": "Create centre",
+        "edit": "Save changes"
+      },
+      "cancel": "Cancel",
+      "close": {
+        "ariaLabel": "Close modal"
+      },
+      "delete": {
+        "label": "Delete centre",
+        "entityLabel": "this centre"
+      },
+      "deleteDialog": {
+        "title": "Delete centre",
+        "message": "Are you sure you want to delete this centre? This action cannot be undone.",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "form": {
+      "nombre": {
+        "label": "Centre name",
+        "placeholder": "e.g. Suksai Thai Ibiza"
+      },
+      "direccion": {
+        "label": "Address",
+        "placeholder": "Street, number, floor…"
+      },
+      "ciudad": {
+        "label": "City",
+        "placeholder": "e.g. Barcelona"
+      },
+      "codigoPostal": {
+        "label": "Postcode",
+        "placeholder": "08001"
+      },
+      "telefono": {
+        "label": "Phone",
+        "placeholder": "+44 20 0000 0000"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "centre@example.com"
+      },
+      "activo": {
+        "label": "Centre active",
+        "helperText": "Deactivate the centre without deleting it"
+      }
+    },
+    "toast": {
+      "created": "Centre created successfully",
+      "updated": "Centre updated",
+      "deleted": "Centre deleted",
+      "deactivated": "Centre deactivated",
+      "reactivated": "Centre reactivated"
+    },
+    "validation": {
+      "nombre": {
+        "required": "Name is required"
+      },
+      "ciudad": {
+        "required": "City is required"
+      },
+      "email": {
+        "pattern": "Enter a valid email address"
+      }
+    }
+  },
+  "calendarVolume": {
+    "sectionTitle": "Appointment density",
+    "title": "Appointment density",
+    "errorTitle": "Error loading density",
+    "errorDescription": "Could not load the density data.",
+    "legendMin": "Less",
+    "legendMax": "More",
+    "ariaLabel": "Heatmap of appointments by day and time",
+    "viewDay": "Day",
+    "viewWeek": "Week",
+    "viewToggleLabel": "Calendar view",
+    "prevDay": "Previous day",
+    "prevWeek": "Previous week",
+    "nextDay": "Next day",
+    "nextWeek": "Next week",
+    "currentPeriod": "Current period: {{dateLabel}}",
+    "insightsLabel": "Insights",
+    "busyTimesTitle": "Busy times",
+    "peakSlotsLabel": "Peak appointment slots",
+    "appointmentCount_one": "{{count}} appointment",
+    "appointmentCount_other": "{{count}} appointments",
+    "appointmentCountShort_one": "{{count}} appt",
+    "appointmentCountShort_other": "{{count}} appts",
+    "noData": "No data available",
+    "colorKeyTitle": "Color key",
+    "legendAriaLabel": "Color gradient: 0 to {{maxValue}} appointments",
+    "peakTimesLabel": "Peak times",
+    "moreOptions": "More options",
+    "cellAriaLabel": "{{dayLabel}} {{hourLabel}}: {{count}} appointments"
+  },
+  "salas": {
+    "modal": {
+      "create": {
+        "title": "New room"
+      },
+      "edit": {
+        "title": "Edit room"
+      },
+      "submit": {
+        "create": "Create room",
+        "edit": "Save changes"
+      },
+      "cancel": "Cancel",
+      "close": {
+        "ariaLabel": "Close modal"
+      },
+      "delete": {
+        "label": "Delete room",
+        "entityLabel": "this room"
+      }
+    },
+    "form": {
+      "centro": {
+        "label": "Centre",
+        "ariaLabel": "Centre this room belongs to"
+      },
+      "nombre": {
+        "label": "Room name",
+        "placeholder": "e.g. Lotus Room"
+      },
+      "capacidad": {
+        "label": "Capacity",
+        "placeholder": "1"
+      },
+      "descripcion": {
+        "label": "Description",
+        "placeholder": "Optional room description…"
+      },
+      "activa": {
+        "label": "Room active",
+        "helperText": "Deactivate the room without deleting it"
+      }
+    },
+    "guard": {
+      "description": "This room has {{count}} active appointment(s) in the next 30 days."
+    },
+    "toast": {
+      "created": "Room created successfully",
+      "updated": "Room updated",
+      "deleted": "Room deleted",
+      "deactivated": "Room deactivated",
+      "errorDelete": "Could not delete the room"
+    },
+    "validation": {
+      "nombre": {
+        "required": "Name is required"
+      },
+      "capacidad": {
+        "min": "Minimum capacity is 1"
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "page": {
+    "eyebrow": "CARTA DE MASAJES",
+    "title": "Masajes &",
+    "titleAccent": "servicios.",
+    "description": "El catálogo de la casa. Edita duraciones, precios y disponibilidad por estudio.",
+    "newBtn": "Nuevo masaje",
+    "comingSoon": "Próximamente"
+  },
+  "kpi": {
+    "activos": "Masajes activos",
+    "precioMedio": "Precio medio",
+    "categorias": "Categorías",
+    "reservasMes": "Reservas / mes",
+    "ndLabel": "N/D",
+    "ndDescription": "Disponible en próxima versión"
+  },
+  "tabs": {
+    "activos": "Activos",
+    "inactivos": "Inactivos",
+    "archivados": "Archivados",
+    "todos": "Todos",
+    "ariaLabel": "Filtrar por estado"
+  },
+  "search": {
+    "placeholder": "Buscar masaje, categoría...",
+    "ariaLabel": "Buscar en masajes",
+    "resultsAnnouncement": "{{count}} masajes encontrados"
+  },
+  "chips": {
+    "centro": "Centro",
+    "duracion": "Duración",
+    "mas": "Más"
+  },
+  "rail": {
+    "title": "Categorías de la carta",
+    "all": "Todos los masajes",
+    "allSub": "Carta completa",
+    "serviciosCount": "{{count}} servicio",
+    "serviciosCount_plural": "{{count}} servicios",
+    "ariaLabel": "Filtrar por categoría",
+    "summary": {
+      "title": "Resumen",
+      "total": "Total servicios",
+      "precioMedio": "Precio medio"
+    }
+  },
+  "grid": {
+    "ariaLabel": "Cuadrícula de masajes",
+    "sectionTitle": "Masajes activos",
+    "addNew": "Crear nuevo masaje",
+    "addNewDesc": "Define duración, precio y materiales.",
+    "orderBy": "Ordenado por nombre",
+    "comingSoonContent": "Esta vista estará disponible próximamente"
+  },
+  "card": {
+    "activo": "Activo",
+    "inactivo": "Inactivo",
+    "archivado": "Archivado",
+    "bono": "Bono",
+    "descuento": "{{pct}}% dto",
+    "editAriaLabel": "Editar {{nombre}}",
+    "codePrefix": "SVC"
+  },
+  "complementos": {
+    "title": "Complementos &",
+    "titleAccent": "añadidos.",
+    "subtitle": "Servicios complementarios que se pueden añadir a cualquier cita"
+  },
+  "empty": {
+    "noData": "Sin masajes todavía",
+    "noDataDesc": "Empieza añadiendo el primer servicio de tu carta.",
+    "noResults": "Sin resultados para \"{{query}}\"",
+    "noResultsDesc": "Prueba con otro término.",
+    "error": "No se pudo cargar la carta",
+    "errorDesc": "Comprueba tu conexión o intenta de nuevo.",
+    "retry": "Reintentar",
+    "comingSoonTitle": "Esta vista llegará pronto",
+    "comingSoonDesc": "Estamos trabajando en ello."
+  },
+  "modal": {
+    "create": {
+      "title": "Nuevo servicio"
+    },
+    "edit": {
+      "title": "Editar servicio"
+    },
+    "submit": {
+      "create": "Crear servicio",
+      "edit": "Guardar cambios"
+    },
+    "cancel": "Cancelar",
+    "delete": {
+      "label": "Eliminar servicio",
+      "entityLabel": "este servicio"
+    }
+  },
+  "form": {
+    "nombre": {
+      "label": "Nombre del servicio",
+      "placeholder": "Ej: Masaje Thai 60 min"
+    },
+    "tipoServicio": {
+      "label": "Categoría",
+      "placeholder": "Selecciona una categoría"
+    },
+    "duracion": {
+      "label": "Duración (min)"
+    },
+    "precio": {
+      "label": "Precio (€)"
+    },
+    "esBono": {
+      "label": "Es un bono de sesiones"
+    },
+    "sesionesTotales": {
+      "label": "Número de sesiones"
+    },
+    "tieneDescuento": {
+      "label": "Incluye descuento"
+    },
+    "porcentajeDescuento": {
+      "label": "Descuento (%)"
+    },
+    "centros": {
+      "label": "Disponible en centros"
+    }
+  },
+  "toast": {
+    "created": "Servicio creado con éxito",
+    "updated": "Servicio actualizado",
+    "deleted": "Servicio eliminado"
+  },
+  "loading": {
+    "kpis": "Cargando KPIs…",
+    "services": "Cargando servicios…"
+  }
+}
