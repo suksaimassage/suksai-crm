@@ -29,7 +29,7 @@
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage"
   },
-  "packageManager": "pnpm@11.1.2",
+  "packageManager": "pnpm@11.22.0",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@styled/typescript-styled-plugin": "^1.0.1",

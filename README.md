@@ -88,4 +88,5 @@ apropiada en `vercel.json`.
 
 ## Convenciones del proyecto
 
-Guía completa: arquitectura hexagonal, reglas de TypeScript, estructura de carpetas, pipeline de agentes y restricciones hard.
+Guía completa: arquitectura hexagonal, reglas de TypeScript, estructura de
+carpetas, pipeline de agentes y restricciones hard.
